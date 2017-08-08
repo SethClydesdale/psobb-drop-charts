@@ -10,9 +10,9 @@ This addon provides you with a reference for items that drop from enemies on cer
 This addon doesn't open automatically since it's a reference resource that you open when you need it. To open the Drop Charts :
 
 1. Press the **\`** key to open the main addon menu.
-2. Select **Drop Charts** from the menu to open the database.
+2. Select **Drop Charts** from the menu to open the drop chart list.
 
 After this you can select the difficulty and section id to see what item an enemy can drop. Hover over an item to see your chances of obtaining it.
 
 ### Preview
-[![](https://i11.servimg.com/u/f11/18/21/41/30/pso13125.jpg)](https://i11.servimg.com/u/f11/18/21/41/30/pso13125.jpg)
+[![](https://i11.servimg.com/u/f11/18/21/41/30/pso13126.jpg)](https://i11.servimg.com/u/f11/18/21/41/30/pso13126.jpg)

@@ -229,6 +229,10 @@ local drawDropCharts = function()
       for j = 1, #cols do
         imgui.TextColored(1, 1, 0, 1, Pad(cols[j], padding))
         NextColumn()
+        
+        if j == 1 then
+          NextColumn()
+        end
       end
       
       Separator()
@@ -243,6 +247,7 @@ local drawDropCharts = function()
 
           -- target
           imgui.TextColored(difficulty_color[selectedDifficulty][1], difficulty_color[selectedDifficulty][2], difficulty_color[selectedDifficulty][3], 1, Pad(row[j].target, padding))
+          NextColumn()
           NextColumn()
 
           -- item
