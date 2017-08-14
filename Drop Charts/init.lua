@@ -78,7 +78,7 @@ local cols = {
 }
 
 -- create an ASCII separator
-local separator = "+" .. string.rep("-", 85) .. "+" 
+local separator = "+" .. string.rep("-", 86) .. "+" 
 local function Separator(noNewLine)
   if noNewLine == nil then
     imgui.NewLine()
@@ -88,10 +88,10 @@ local function Separator(noNewLine)
 end
 
 -- create an ASCII column
-local function NextColumn()
-  imgui.SameLine(0, 0)
-  imgui.TextColored(0.6, 0.6, 0.6, 1, "|")
-  imgui.SameLine(0, 0)
+local function NextColumn(rep, offset)
+  imgui.SameLine(0, offset or 0)
+  imgui.TextColored(0.6, 0.6, 0.6, 1, rep and string.rep("|", rep) or "|")
+  imgui.SameLine(0, offset or 0)
 end
 
 -- add padding to each side of the string until it meets the specified length
@@ -228,9 +228,10 @@ local drawDropCharts = function()
       
       for j = 1, #cols do
         imgui.TextColored(1, 1, 0, 1, Pad(cols[j], padding))
-        NextColumn()
         
         if j == 1 then
+          NextColumn(2, 2)
+        else
           NextColumn()
         end
       end
@@ -247,8 +248,7 @@ local drawDropCharts = function()
 
           -- target
           imgui.TextColored(difficulty_color[selectedDifficulty][1], difficulty_color[selectedDifficulty][2], difficulty_color[selectedDifficulty][3], 1, Pad(row[j].target, padding))
-          NextColumn()
-          NextColumn()
+          NextColumn(2, 2)
 
           -- item
           imgui.TextColored(section_color[selectedSection][1], section_color[selectedSection][2], section_color[selectedSection][3], 1, Pad(row[j].item, padding))
@@ -286,7 +286,7 @@ local function init()
   
   return {
     name = "Drop Charts",
-    version = "1.0.0",
+    version = "1.0.1",
     author = "Seth Clydesdale",
     description = "Drop chart reference for PSOBB.",
     present = present

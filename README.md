@@ -16,3 +16,9 @@ After this you can select the difficulty and section id to see what item an enem
 
 ### Preview
 [![](https://i11.servimg.com/u/f11/18/21/41/30/pso13126.jpg)](https://i11.servimg.com/u/f11/18/21/41/30/pso13126.jpg)
+
+### Change Log
+
+#### v1.0.1
+- Adjusted table layout.
+- Other minor code optimizations.
