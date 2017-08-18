@@ -19,6 +19,9 @@ After this you can select the difficulty and section id to see what item an enem
 
 ### Change Log
 
+#### v1.0.2
+- Updated drop charts to reflect the changes made in [this update](https://www.pioneer2.net/community/threads/minor-update.7791/#post-73734).
+
 #### v1.0.1
 - Adjusted table layout.
 - Other minor code optimizations.
