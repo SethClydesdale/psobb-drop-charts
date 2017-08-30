@@ -25,3 +25,13 @@ After this you can select the difficulty and section id to see what item an enem
 #### v1.0.1
 - Adjusted table layout.
 - Other minor code optimizations.
+
+### Updating Drop Charts
+If for any reason you need to update the drop chart data for this addon -- such as in the event I'm absent -- I wrote a small script that grabs and parses the data for you. Follow the steps below to update the drop charts.
+
+1. Go to [Ephinea](https://ephinea.pioneer2.net/drop-charts/normal/) and select the desired difficulty.
+2. Open your console and execute [this script](https://gist.github.com/SethClydesdale/9b887d9bfedaf644d91d2350ec32db74) to copy the drop charts to your clipboard.
+3. Edit the respective difficulty file (normal, hard, very hard, ultimate...), delete the contents, add "return" to the beginning of the file, and paste the copied drop chart code.
+4. Save the file and the drop chart data will be updated for that difficulty.
+
+Repeat the steps above to update the drop charts for all difficulties.
