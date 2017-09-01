@@ -3,6 +3,12 @@
 
 -- imports
 local core_mainmenu = require("core_mainmenu")
+local lib_helpers = require("solylib.helpers")
+local lib_characters = require("solylib.characters")
+local lib_unitxt = require("solylib.unitxt")
+local lib_items = require("solylib.items.items")
+local lib_items_list = require("solylib.items.items_list")
+local lib_items_cfg = require("solylib.items.items_configuration")
 local drop_charts = {
   ["Normal"] = require("Drop Charts.normal"),
   ["Hard"] = require("Drop Charts.hard"),
@@ -15,6 +21,45 @@ local window_open = false
 local button_func = function()
   window_open = not window_open
 end
+
+-- memory addresses
+local _SideMessage = pso.base_address + 0x006AECC8
+local _Difficulty = 0x00A9CD68
+local _Episode = 0x00A9B1C8
+
+-- variables
+local party = { }
+local input = { }
+local counter = 0
+local update_interval = 10
+local fontScale = 1
+
+-- Auto/Manual Button Info
+local mode = {
+	["auto"] = {
+		status = "auto",
+		text = "Auto Mode",
+		color = 0xFFFFFF00,
+		tooltip = "Auto Mode: setting all options automatically. Type /partyinfo to refresh auto data"
+	},
+	["manual"] = {
+		status = "manual",
+		text = "Manual Mode",
+		color = 0xFFEEEEEE,
+		tooltip = "Manual Mode: setting all options manually. Click Toggle to grab options automatically (may need to type /partyinfo to refresh)"
+	},
+	status = "manual",
+	initialStatus = true, -- first time run, will switch to Auto on first info grab
+	changed = false,
+	lastEpisode = nil
+}
+
+-- episode list
+local episodes = {
+    [0] = "EPISODE 1",
+    [1] = "EPISODE 2",
+    [2] = "EPISODE 4"
+}
 
 -- difficulty list
 local difficulty = {
@@ -59,7 +104,6 @@ local difficulty_color = {
   { 1, 0.7, 0.5 },
   { 1, 0.5, 0.5 }
 }
-
 
 -- episode order
 local episode = {
@@ -188,6 +232,236 @@ local function ColorKeyword(...)
   end
 end
 
+-- read side message from memory buffer
+local function get_side_text()
+	local ptr = pso.read_u32(_SideMessage)
+	if ptr ~= 0 then
+		local text = pso.read_wstr(ptr + 0x14, 0xFF)
+		return text
+	end
+	return ""
+end
+
+-- extract party dar, rare boosts, section id, and grab episode and difficulty
+local function parse_side_message(text)
+    local data = { }
+	
+	-- logic in identifying dar and rare boost
+    local dropIndex = string.find(text, "Drop")
+	local rareIndex = string.find(text, "Rare")
+	local idIndex = string.find(text, "ID")
+	
+	local dropStr = string.sub(text,dropIndex, rareIndex-1)
+	local rareStr = string.sub(text,rareIndex, -1)
+	local idStr = string.sub(text, idIndex+4, dropIndex-1)
+
+	-- other data
+	local _difficulty = pso.read_u32(_Difficulty)
+	local _episode = pso.read_u32(_Episode)
+	
+    data.dar = tonumber(string.match(dropStr, "%d+"))
+	data.rare = tonumber(string.match(rareStr, "%d+"))
+	data.id = string.match(idStr,"%a+")
+	data.difficulty = _difficulty + 1
+	data.episode = episodes[_episode]
+	
+	return data
+end
+
+-- show tooltip with computed values
+local getToolTip = function(item)
+
+	local custom
+	
+	if mode.status == "auto" then
+		custom = {
+			dar   = tonumber(party.dar),
+			rare  = tonumber(party.rare)
+		}
+	else
+		custom = {
+			dar   = tonumber(input.dar),
+			rare  = tonumber(input.rare)
+		}
+	end
+	
+	-- check party dar/rare values and use default values if not set
+	if custom.dar == nil or custom.dar < 0 then
+		custom.dar = 100
+	end
+	if custom.rare == nil or custom.rare < 0 then
+		custom.rare = 100
+	end
+	
+	-- get default item percentage
+	local percent = item.dar * item.rare / 100
+	local denom = 100 / percent
+	
+	-- factor party dar/rare bonuses into item's dar/rare
+	local computedDar = (custom.dar * item.dar) / 100
+	if computedDar > 100 then
+		computedDar = 100
+	end
+	local computedRare = (custom.rare * item.rare) / 100
+	if computedRare > 100 then
+		computedRare = 100
+	end
+	
+	-- get differences after computation
+	local darDelta = computedDar - item.dar
+	local rareDelta =  computedRare - item.rare
+	
+	-- get adjusted item percentage via computed dar/rare
+	local computedPercent = computedDar * computedRare / 100
+	local computedDenom = 100 / computedPercent
+	
+	-- formulate drop strings
+	local drop = "Drop: 1/"..string.format("%.2f",denom)..string.format(" (%.2f%s)",percent,"%%%%")
+	local adjustedDrop = "Drop: 1/"..string.format("%.2f",computedDenom)..string.format(" (%.2f%s)",computedPercent,"%%%%")
+	
+	-- generate tooltip
+	imgui.BeginTooltip()
+	
+		imgui.SetWindowFontScale(fontScale)
+		
+		-- if party or item's dar has been adjusted
+		if custom.dar ~= 100 and item.dar ~= computedDar then
+			lib_helpers.TextC(false, 0xFFFFFFFF, "Adjusted ")
+		end
+		lib_helpers.TextC(false, 0xFFFFFFFF, "DAR: ")
+		
+		local color = 0xFFFFFFFF
+		if computedDar == 100 then
+			color = 0xFFFFFF00
+		end
+		lib_helpers.TextC(false, color, string.format("%.0f%s",computedDar,"%%%%"))
+		
+		-- display color-coded DAR delta
+		if darDelta > 0 and custom.dar ~= 100 then
+			lib_helpers.TextC(false, 0xFF00FF00, " +"..string.format("%.0f%s",darDelta, "%%%%"))
+		elseif darDelta < 0 and custom.dar ~= 100 then
+			lib_helpers.TextC(false, 0xFFFF0000, " "..string.format("%.0f%s",darDelta, "%%%%"))
+		end
+		
+		imgui.NewLine()
+		
+		-- if party rare is not 100%
+		if custom.rare ~= 100 then
+			lib_helpers.TextC(false, 0xFFFFFFFF, "Adjusted ")
+		end
+		lib_helpers.TextC(false, 0xFFFFFFFF, "Rare: ")
+		
+		color = 0xFFFFFFFF
+		if computedRare == 100 then
+			color = 0xFFFFFF00
+		end
+		-- for rare enemies, etc, no decimals
+		local rareStr = string.format("%.5f%s",computedRare,"%%%%")
+		if computedRare > 19 then
+			rareStr = string.format("%.1f%s",computedRare,"%%%%")
+		end
+		lib_helpers.TextC(false, color, rareStr)
+		
+		-- display color-coded RARE delta
+		local deltaStr = string.format("%.4f",rareDelta)
+		if computedRare > 19 then
+			deltaStr = string.format("%.1f",rareDelta)
+		end
+		if rareDelta > 0 and custom.rare ~= 100 then
+			lib_helpers.TextC(false, 0xFF00FF00, " +" .. deltaStr)
+		elseif rareDelta < 0 and custom.rare ~= 100 then
+			lib_helpers.TextC(false, 0xFFFF0000, " " .. deltaStr)
+		end
+		
+		imgui.NewLine()
+		
+		-- If drop rate is different, show original drop rate string
+		if item.dar ~= computedDar or item.rare ~= computedRare then
+			lib_helpers.TextC(true, 0xFF888888, drop)
+		end
+		lib_helpers.TextC(true, 0xFFFFFFFF, adjustedDrop)
+	
+	imgui.EndTooltip()
+end
+
+-- Set Mode (Auto/Manual)
+local setMode = function(status)
+	mode.status = status
+	mode.changed = true
+end
+
+-- Party Dar/Rare inputs/configuration
+local getPartyConfig = function()
+  local darSuccess
+  local rareSuccess
+  
+  -- if Auto Mode, grab party dar
+  if mode.status == "auto" then
+	input.dar = party.dar
+  end
+  
+  -- if uninitialized, use defaults
+  if input.dar == nil then
+  	input.dar = "100"
+  end
+  
+  imgui.PushItemWidth(68)
+  darSuccess, input.dar = imgui.InputText("% DAR",string.format("%s",input.dar), 255)
+  imgui.PopItemWidth()
+  
+  -- if changed, enter Manual Mode
+  if darSuccess then
+	setMode("manual")
+  end
+  
+  if input.dar == "" or input.dar == nil or tonumber(input.dar) == nil then
+	input.dar = "100"
+  end
+  
+  -- if Auto Mode, grab party rare
+  if mode.status == "auto" then
+	input.rare = party.rare
+  end
+  
+  -- if uninitialized, use defaults
+  if input.rare == nil then
+  	input.rare = "100"
+  end
+  
+  imgui.PushItemWidth(68)
+  rareSuccess, input.rare = imgui.InputText("% Rare Rate",string.format("%s",input.rare), 255)
+  imgui.PopItemWidth()
+  
+  -- if changed, enter Manual Mode
+  if rareSuccess then
+	setMode("manual")
+  end
+  
+  if input.rare == "" or input.rare == nil or tonumber(input.rare) == nil then
+	input.rare = "100"
+  end
+  
+  -- create Toggle button with instructions
+  local autoString = " " .. mode[mode.status].text
+  if mode.status == "auto" and party.dar == nil then
+	autoString = autoString .. " > Type /partyinfo to refresh..."
+  end
+  if imgui.Button("Toggle") then
+	if mode.status == "auto" then
+		setMode("manual")
+	else
+		setMode("auto")
+	end
+  end
+  
+  -- display current Mode, with tooltip
+  lib_helpers.TextC(false,mode[mode.status].color, autoString)
+  if imgui.IsItemHovered() then
+	imgui.BeginTooltip()
+		lib_helpers.TextC(false,0xFFFFFFFF, mode[mode.status].tooltip)
+	imgui.EndTooltip()
+  end
+end
 
 -- draw the drop charts
 local difficultyChanged = true
@@ -196,6 +470,22 @@ local sectionChanged = true
 local selectedSection = 1
 local padding = 42
 local drawDropCharts = function()
+
+	imgui.SetWindowFontScale(fontScale)
+	
+	-- if Auto Mode, set selectedSection and selectedDifficulty
+	if mode.status == "auto" then
+		if party.id ~= nil then
+			for k, v in pairs(section) do
+				if v == party.id then
+					selectedSection = k
+				end
+			end
+		end
+		if party.difficulty ~= nil then
+			selectedDifficulty = party.difficulty
+		end
+	end
   
   -- difficulty drop down
   imgui.PushItemWidth(250)
@@ -208,6 +498,14 @@ local drawDropCharts = function()
   sectionChanged, selectedSection = imgui.Combo("Section ID", selectedSection, section, table.getn(section))
   imgui.PopItemWidth()
   
+  -- enter manual mode on changes
+  if difficultyChanged or sectionChanged then
+	setMode("manual")
+  end
+  
+  --get DAR/Rare input boxes
+  getPartyConfig()
+  
   -- title
   imgui.Spacing()
   imgui.SetWindowFontScale(1.6)
@@ -219,8 +517,20 @@ local drawDropCharts = function()
   imgui.Spacing()
   imgui.BeginChild("scrolling", 0, 0, false, {"HorizontalScrollbar"})
   
+  imgui.SetWindowFontScale(fontScale)
+  
   -- create the drop chart tables
   for i = 1, #episode do 
+	-- automatically open current episode dropdown, if Auto Mode and episode has changed
+	if mode.status == "auto" and party.episode ~= nil then
+		if mode.initialStatus or mode.changed or party.episode ~= mode.lastEpisode then
+			if episode[i] == party.episode then
+				imgui.SetNextTreeNodeOpen(true)
+			else
+				imgui.SetNextTreeNodeOpen(false)
+			end
+		end
+	end
     if imgui.TreeNodeEx(episode[i], {"Framed"}) then
       Separator(true)
       imgui.NewLine()
@@ -254,7 +564,7 @@ local drawDropCharts = function()
           imgui.TextColored(section_color[selectedSection][1], section_color[selectedSection][2], section_color[selectedSection][3], 1, Pad(row[j].item, padding))
           
           if imgui.IsItemHovered() then
-            imgui.SetTooltip(row[j].tooltip)
+            getToolTip(row[j])
           end
           
           NextColumn()
@@ -272,10 +582,33 @@ end
 -- show the drop charts when opened
 local function present()
   if window_open then
-    local status
+	counter = counter + 1
+    local status, dataFound = false
     imgui.SetNextWindowSize(700, 520, "FirstUseEver");
     status, window_open = imgui.Begin("Drop Charts", window_open)
-    drawDropCharts()
+	-- @todo: using counter prevents auto mode from updating upon party changes
+    -- if counter % update_interval == 0 then
+        local side = get_side_text()
+		if string.find(side, "ID") and string.find(side, "Drop") and string.find(side, "Rare") then
+            party = parse_side_message(side)
+			if mode.initialStatus == true then
+				mode.status = "auto"
+				dataFound = true
+			end
+		end
+        counter = 0
+    -- end
+	drawDropCharts()
+	
+	-- reset statuses
+	mode.changed = false
+	if mode.initialStatus == true and dataFound then
+		mode.initialStatus = false
+	end
+	if party.episode ~= nil and party.episode ~= mode.lastEpisode then
+		mode.lastEpisode = party.episode
+	end
+	
     imgui.End()
   end
 end
