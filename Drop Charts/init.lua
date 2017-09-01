@@ -3,7 +3,6 @@
 
 -- imports
 local core_mainmenu = require("core_mainmenu")
-local lib_helpers = require("solylib.helpers")
 local drop_charts = {
   ["Normal"] = require("Drop Charts.normal"),
   ["Hard"] = require("Drop Charts.hard"),
@@ -321,30 +320,30 @@ local getToolTip = function(item)
 		
 		-- if party or item's dar has been adjusted
 		if custom.dar ~= 100 and item.dar ~= computedDar then
-			lib_helpers.TextC(false, 0xFFFFFFFF, "Adjusted ")
+			TextC(false, 0xFFFFFFFF, "Adjusted ")
 		end
-		lib_helpers.TextC(false, 0xFFFFFFFF, "DAR: ")
+		TextC(false, 0xFFFFFFFF, "DAR: ")
 		
 		local color = 0xFFFFFFFF
 		if computedDar == 100 then
 			color = 0xFFFFFF00
 		end
-		lib_helpers.TextC(false, color, string.format("%.0f%s",computedDar,"%%%%"))
+		TextC(false, color, string.format("%.0f%s",computedDar,"%%%%"))
 		
 		-- display color-coded DAR delta
 		if darDelta > 0 and custom.dar ~= 100 then
-			lib_helpers.TextC(false, 0xFF00FF00, " +"..string.format("%.0f%s",darDelta, "%%%%"))
+			TextC(false, 0xFF00FF00, " +"..string.format("%.0f%s",darDelta, "%%%%"))
 		elseif darDelta < 0 and custom.dar ~= 100 then
-			lib_helpers.TextC(false, 0xFFFF0000, " "..string.format("%.0f%s",darDelta, "%%%%"))
+			TextC(false, 0xFFFF0000, " "..string.format("%.0f%s",darDelta, "%%%%"))
 		end
 		
 		imgui.NewLine()
 		
 		-- if party rare is not 100%
 		if custom.rare ~= 100 then
-			lib_helpers.TextC(false, 0xFFFFFFFF, "Adjusted ")
+			TextC(false, 0xFFFFFFFF, "Adjusted ")
 		end
-		lib_helpers.TextC(false, 0xFFFFFFFF, "Rare: ")
+		TextC(false, 0xFFFFFFFF, "Rare: ")
 		
 		color = 0xFFFFFFFF
 		if computedRare == 100 then
@@ -355,7 +354,7 @@ local getToolTip = function(item)
 		if computedRare > 19 then
 			rareStr = string.format("%.1f%s",computedRare,"%%%%")
 		end
-		lib_helpers.TextC(false, color, rareStr)
+		TextC(false, color, rareStr)
 		
 		-- display color-coded RARE delta
 		local deltaStr = string.format("%.4f",rareDelta)
@@ -363,18 +362,18 @@ local getToolTip = function(item)
 			deltaStr = string.format("%.1f",rareDelta)
 		end
 		if rareDelta > 0 and custom.rare ~= 100 then
-			lib_helpers.TextC(false, 0xFF00FF00, " +" .. deltaStr)
+			TextC(false, 0xFF00FF00, " +" .. deltaStr)
 		elseif rareDelta < 0 and custom.rare ~= 100 then
-			lib_helpers.TextC(false, 0xFFFF0000, " " .. deltaStr)
+			TextC(false, 0xFFFF0000, " " .. deltaStr)
 		end
 		
 		imgui.NewLine()
 		
 		-- If drop rate is different, show original drop rate string
 		if item.dar ~= computedDar or item.rare ~= computedRare then
-			lib_helpers.TextC(true, 0xFF888888, drop)
+			TextC(true, 0xFF888888, drop)
 		end
-		lib_helpers.TextC(true, 0xFFFFFFFF, adjustedDrop)
+		TextC(true, 0xFFFFFFFF, adjustedDrop)
 	
 	imgui.EndTooltip()
 end
@@ -450,10 +449,10 @@ local getPartyConfig = function()
   end
   
   -- display current Mode, with tooltip
-  lib_helpers.TextC(false,mode[mode.status].color, autoString)
+  TextC(false,mode[mode.status].color, autoString)
   if imgui.IsItemHovered() then
 	imgui.BeginTooltip()
-		lib_helpers.TextC(false,0xFFFFFFFF, mode[mode.status].tooltip)
+		TextC(false,0xFFFFFFFF, mode[mode.status].tooltip)
 	imgui.EndTooltip()
   end
 end
@@ -626,3 +625,31 @@ return {
     init = init
   }
 }
+
+-- Soly's lib_helper functions for standalone addon
+
+local function TextC(newLine, col, fmt, ...)
+    newLine = newLine or false
+    col = col or 0xFFFFFFFF
+    fmt = fmt or "nil"
+
+    if newLine == false then
+        imgui.SameLine(0, 0)
+    end
+
+    local c = GetColorAsFloats(col)
+    local str = string.format(fmt, ...)
+    imgui.TextColored(c.r, c.g, c.b, c.a, str)
+    return str
+end
+
+local function GetColorAsFloats(color)
+    color = color or 0xFFFFFFFF
+
+    local a = bit.band(bit.rshift(color, 24), 0xFF) / 255;
+    local r = bit.band(bit.rshift(color, 16), 0xFF) / 255;
+    local g = bit.band(bit.rshift(color, 8), 0xFF) / 255;
+    local b = bit.band(color, 0xFF) / 255;
+
+    return { r = r, g = g, b = b, a = a }
+end
