@@ -115,6 +115,33 @@ local cols = {
   "Item"
 }
 
+-- Soly's lib_helper functions for standalone addon
+local function GetColorAsFloats(color)
+    color = color or 0xFFFFFFFF
+
+    local a = bit.band(bit.rshift(color, 24), 0xFF) / 255;
+    local r = bit.band(bit.rshift(color, 16), 0xFF) / 255;
+    local g = bit.band(bit.rshift(color, 8), 0xFF) / 255;
+    local b = bit.band(color, 0xFF) / 255;
+
+    return { r = r, g = g, b = b, a = a }
+end
+local function TextC(newLine, col, fmt, ...)
+    newLine = newLine or false
+    col = col or 0xFFFFFFFF
+    fmt = fmt or "nil"
+
+    if newLine == false then
+        imgui.SameLine(0, 0)
+    end
+
+    local c = GetColorAsFloats(col)
+    local str = string.format(fmt, ...)
+    imgui.TextColored(c.r, c.g, c.b, c.a, str)
+    return str
+end
+-- End Soly
+
 -- create an ASCII separator
 local separator = "+" .. string.rep("-", 86) .. "+" 
 local function Separator(noNewLine)
@@ -625,31 +652,3 @@ return {
     init = init
   }
 }
-
--- Soly's lib_helper functions for standalone addon
-
-local function TextC(newLine, col, fmt, ...)
-    newLine = newLine or false
-    col = col or 0xFFFFFFFF
-    fmt = fmt or "nil"
-
-    if newLine == false then
-        imgui.SameLine(0, 0)
-    end
-
-    local c = GetColorAsFloats(col)
-    local str = string.format(fmt, ...)
-    imgui.TextColored(c.r, c.g, c.b, c.a, str)
-    return str
-end
-
-local function GetColorAsFloats(color)
-    color = color or 0xFFFFFFFF
-
-    local a = bit.band(bit.rshift(color, 24), 0xFF) / 255;
-    local r = bit.band(bit.rshift(color, 16), 0xFF) / 255;
-    local g = bit.band(bit.rshift(color, 8), 0xFF) / 255;
-    local b = bit.band(color, 0xFF) / 255;
-
-    return { r = r, g = g, b = b, a = a }
-end
