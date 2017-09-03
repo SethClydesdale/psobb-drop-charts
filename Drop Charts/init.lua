@@ -429,6 +429,7 @@ local getPartyConfig = function()
   imgui.PushItemWidth(68)
   darSuccess, input.dar = imgui.InputText("% DAR",string.format("%s",input.dar), 255)
   imgui.PopItemWidth()
+  imgui.SameLine(0, 10)
   
   -- if changed, enter Manual Mode
   if darSuccess then
@@ -452,6 +453,7 @@ local getPartyConfig = function()
   imgui.PushItemWidth(68)
   rareSuccess, input.rare = imgui.InputText("% Rare Rate",string.format("%s",input.rare), 255)
   imgui.PopItemWidth()
+  imgui.SameLine(0, 10)
   
   -- if changed, enter Manual Mode
   if rareSuccess then
@@ -640,7 +642,7 @@ local function init()
   
   return {
     name = "Drop Charts",
-    version = "1.0.2",
+    version = "1.1.0",
     author = "Seth Clydesdale",
     description = "Drop chart reference for PSOBB.",
     present = present

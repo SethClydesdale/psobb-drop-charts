@@ -15,9 +15,15 @@ This addon doesn't open automatically since it's a reference resource that you o
 After this you can select the difficulty and section id to see what item an enemy can drop. Hover over an item to see your chances of obtaining it.
 
 ### Preview
-[![](https://i11.servimg.com/u/f11/18/21/41/30/pso13126.jpg)](https://i11.servimg.com/u/f11/18/21/41/30/pso13126.jpg)
+[![](https://i11.servimg.com/u/f11/18/21/41/30/pso13128.jpg)](https://i11.servimg.com/u/f11/18/21/41/30/pso13128.jpg)
 
 ### Change Log
+
+#### v1.1.0
+- Added auto mode for automatic difficulty and section id selection. This mode can be toggled by clicking the "Toggle" button under the drop downs. 
+- Added automatic DAR/Rare Rate calculations.
+
+Big thank you to [Paralax2062](https://github.com/Paralax2062) for implementing this new functionality !
 
 #### v1.0.2
 - Updated drop charts to reflect the changes made in [this update](https://www.pioneer2.net/community/threads/minor-update.7791/#post-73734).
@@ -35,3 +41,6 @@ If for any reason you need to update the drop chart data for this addon -- such 
 4. Save the file and the drop chart data will be updated for that difficulty.
 
 Repeat the steps above to update the drop charts for all difficulties.
+
+### Special Thanks to...
+- [Paralax2062](https://github.com/Paralax2062) for implementing automatic Difficulty and Section ID selection, and DAR/RR calculations.
