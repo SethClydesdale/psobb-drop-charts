@@ -15,6 +15,9 @@ local window_open = true
 local button_func = function()
   window_open = not window_open
 end
+local windowArgs = {
+	"NoMove"
+}
 
 -- memory addresses
 local _SideMessage = pso.base_address + 0x006AECC8
@@ -26,7 +29,7 @@ local party = { }
 local input = { }
 local counter = 0
 local update_interval = 10
-local fontScale = 1
+local fontScale = 1.25
 
 -- Auto/Manual Button Info
 local mode = {
@@ -112,9 +115,7 @@ local episode = {
 -- column headers for the drop charts
 local cols = {
   "Target",
-  "Item",
-  "Difficulty",
-  "Section"
+  "Item"
 }
 
 -- Search Feature Info
@@ -153,10 +154,7 @@ end
 -- End Soly
 
 -- create an ASCII separator
-local separator
-local function defineSeparator()
-	separator = "+" .. string.rep("-", search.mode == "filter" and 86 or 131) .. "+" 
-end
+local separator = "+" .. string.rep("-", 86) .. "+"
 local function Separator(noNewLine)
   if noNewLine == nil then
     imgui.NewLine()
@@ -303,7 +301,10 @@ local function parse_side_message(text)
 end
 
 -- show tooltip with computed values
-local getToolTip = function(item)
+local getToolTip = function(item, diff, sect)
+
+	diff = diff or selectedDifficulty
+	sect = sect or selectedSection
 
 	local custom
 	
@@ -357,6 +358,15 @@ local getToolTip = function(item)
 	imgui.BeginTooltip()
 	
 		imgui.SetWindowFontScale(fontScale)
+		
+		-- if search, display difficulty and section
+		if search.mode == "search" then
+			imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, difficulty[diff])
+			imgui.SameLine(0, 8)
+            imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, section[sect])
+			imgui.NewLine()
+			imgui.NewLine()
+		end
 		
 		-- if party or item's dar has been adjusted
 		if custom.dar ~= 100 and item.dar ~= computedDar then
@@ -427,9 +437,11 @@ end
 -- Search Feature
 local getSearchInput = function()
   imgui.NewLine()
+  
+  TextC(true, 0xFFFFFFFF, "Search: ")
 	  
-  imgui.PushItemWidth(184)
-  search.changed, search.inputString = imgui.InputText("Item to search for", search.inputString, 255)
+  imgui.PushItemWidth(185)
+  search.changed, search.inputString = imgui.InputText("", search.inputString, 255)
   imgui.PopItemWidth()
   
   imgui.SameLine(0, 10)
@@ -438,15 +450,12 @@ local getSearchInput = function()
 	search.filterString = ""
 	search.inputString = ""
   end
-  
-  TextC(true, 0xFFFFFFFF, "Search: ")
-  imgui.SameLine(0,0)
   if imgui.Button("Filter Selection") then
 	search.filterString = search.inputString
 	search.mode = "filter"
   end
   
-  TextC(false, 0xFFFFFFFF, " or ")
+  TextC(false, 0xFFFFFFFF, "  or  ")
   
   imgui.SameLine(0,0)
   
@@ -539,7 +548,6 @@ local selectedDifficulty = 1
 local sectionChanged = true
 local selectedSection = 1
 local padding = 42
-local paddingSmall = 32
 local drawDropCharts = function()
 
 	imgui.SetWindowFontScale(fontScale)
@@ -580,9 +588,6 @@ local drawDropCharts = function()
   --get Search Input
   getSearchInput()
   
-  --define separator
-  defineSeparator()
-  
   -- title
   imgui.Spacing()
   imgui.SetWindowFontScale(1.6)
@@ -614,16 +619,10 @@ local drawDropCharts = function()
       NextColumn()
       
       for j = 1, #cols do
-		local wide = false
-		if j > 2 then
-		  if(search.mode == "filter" or search.filterString == "") then
-			wide = true
-		  end
-		end
 		
-        imgui.TextColored(1, 1, 0, 1, Pad(cols[j], search.mode == "search" and paddingSmall or padding))
+        imgui.TextColored(1, 1, 0, 1, Pad(cols[j], padding))
         
-        if j == 1 or wide then
+        if j == 1 then
           NextColumn(2, 2)
 		else
           NextColumn()
@@ -639,31 +638,23 @@ local drawDropCharts = function()
 	  
 		for j = 1, #row do
 		  if (row[j].target == "SEPARATOR") then
-            Separator()
+            if (search.filterString == "") then
+			  Separator()
+			end
           else
 	    	if(search.filterString == "" or string.find(string.lower(row[j].item), string.lower(search.filterString), 1, true)) then
               imgui.NewLine()
               NextColumn()
 
               -- target
-              imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, Pad(row[j].target, search.mode == "search" and paddingSmall or padding))
+              imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, Pad(row[j].target, padding))
               NextColumn(2, 2)
 
               -- item
-              imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, Pad(row[j].item, search.mode == "search" and paddingSmall or padding))
-			  
-			  if search.mode == "search"
-			    NextColumn(2, 2)
-				-- difficulty
-				imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, Pad(diff, search.mode == "search" and paddingSmall or padding))
-				NextColumn(2, 2)
-
-				-- section
-				imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, Pad(sect, search.mode == "search" and paddingSmall or padding))
-		      end
+              imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, Pad(row[j].item, padding))
 			
               if imgui.IsItemHovered() then
-                getToolTip(row[j])
+                getToolTip(row[j], diff, sect)
               end
           
               NextColumn()
@@ -682,7 +673,7 @@ local drawDropCharts = function()
 		  for e = 1, #episode do
 			for s = 1, #section do
 			  local row = drop_charts[difficulty[d]][episode[e]][section[s]]
-			  generateRows(row, difficulty[d], [section[s])
+			  generateRows(row, d, s)
 			end
 		  end
 		end
@@ -697,11 +688,11 @@ end
 
 -- show the drop charts when opened
 local function present()
-  if window_open then
+  -- if window_open then
 	counter = counter + 1
     local status, dataFound = false
     imgui.SetNextWindowSize(700, 520, "FirstUseEver");
-    status, window_open = imgui.Begin("Drop Charts", window_open)
+    status, window_open = imgui.Begin("Drop Charts", window_open, windowArgs)
 	-- @todo: using counter prevents auto mode from updating upon party changes
     -- if counter % update_interval == 0 then
         local side = get_side_text()
@@ -726,7 +717,7 @@ local function present()
 	end
 	
     imgui.End()
-  end
+  -- end
 end
 
 
