@@ -11,7 +11,7 @@ local drop_charts = {
 }
 
 -- window vars
-local window_open = false
+local window_open = true
 local button_func = function()
   window_open = not window_open
 end
@@ -112,7 +112,17 @@ local episode = {
 -- column headers for the drop charts
 local cols = {
   "Target",
-  "Item"
+  "Item",
+  "Difficulty",
+  "Section"
+}
+
+-- Search Feature Info
+local search = {
+	changed = true,
+	inputString = "",
+	filterString = "",
+	mode = "filter"
 }
 
 -- Soly's lib_helper functions for standalone addon
@@ -143,7 +153,10 @@ end
 -- End Soly
 
 -- create an ASCII separator
-local separator = "+" .. string.rep("-", 86) .. "+" 
+local separator
+local function defineSeparator()
+	separator = "+" .. string.rep("-", search.mode == "filter" and 86 or 131) .. "+" 
+end
 local function Separator(noNewLine)
   if noNewLine == nil then
     imgui.NewLine()
@@ -411,6 +424,40 @@ local setMode = function(status)
 	mode.changed = true
 end
 
+-- Search Feature
+local getSearchInput = function()
+  imgui.NewLine()
+	  
+  imgui.PushItemWidth(184)
+  search.changed, search.inputString = imgui.InputText("Item to search for", search.inputString, 255)
+  imgui.PopItemWidth()
+  
+  imgui.SameLine(0, 10)
+  
+  if imgui.Button("Clear") then
+	search.filterString = ""
+	search.inputString = ""
+  end
+  
+  TextC(true, 0xFFFFFFFF, "Search: ")
+  imgui.SameLine(0,0)
+  if imgui.Button("Filter Selection") then
+	search.filterString = search.inputString
+	search.mode = "filter"
+  end
+  
+  TextC(false, 0xFFFFFFFF, " or ")
+  
+  imgui.SameLine(0,0)
+  
+  if imgui.Button("Search All") then
+	search.filterString = search.inputString
+	search.mode = "search"
+  end
+  
+  imgui.NewLine()
+end
+
 -- Party Dar/Rare inputs/configuration
 local getPartyConfig = function()
   local darSuccess
@@ -429,6 +476,7 @@ local getPartyConfig = function()
   imgui.PushItemWidth(68)
   darSuccess, input.dar = imgui.InputText("% DAR",string.format("%s",input.dar), 255)
   imgui.PopItemWidth()
+  imgui.SameLine(0, 10)
   
   -- if changed, enter Manual Mode
   if darSuccess then
@@ -452,6 +500,7 @@ local getPartyConfig = function()
   imgui.PushItemWidth(68)
   rareSuccess, input.rare = imgui.InputText("% Rare Rate",string.format("%s",input.rare), 255)
   imgui.PopItemWidth()
+  imgui.SameLine(0, 10)
   
   -- if changed, enter Manual Mode
   if rareSuccess then
@@ -490,6 +539,7 @@ local selectedDifficulty = 1
 local sectionChanged = true
 local selectedSection = 1
 local padding = 42
+local paddingSmall = 32
 local drawDropCharts = function()
 
 	imgui.SetWindowFontScale(fontScale)
@@ -527,6 +577,12 @@ local drawDropCharts = function()
   --get DAR/Rare input boxes
   getPartyConfig()
   
+  --get Search Input
+  getSearchInput()
+  
+  --define separator
+  defineSeparator()
+  
   -- title
   imgui.Spacing()
   imgui.SetWindowFontScale(1.6)
@@ -558,41 +614,80 @@ local drawDropCharts = function()
       NextColumn()
       
       for j = 1, #cols do
-        imgui.TextColored(1, 1, 0, 1, Pad(cols[j], padding))
+		local wide = false
+		if j > 2 then
+		  if(search.mode == "filter" or search.filterString == "") then
+			wide = true
+		  end
+		end
+		
+        imgui.TextColored(1, 1, 0, 1, Pad(cols[j], search.mode == "search" and paddingSmall or padding))
         
-        if j == 1 then
+        if j == 1 or wide then
           NextColumn(2, 2)
-        else
+		else
           NextColumn()
         end
       end
       
       Separator()
-      
-      local row = drop_charts[difficulty[selectedDifficulty]][episode[i]][section[selectedSection]]
-      for j = 1, #row do
-        if (row[j].target == "SEPARATOR") then
-          Separator()
-        else
-          imgui.NewLine()
-          NextColumn()
+	  
+	  --define rows function
+	  local function generateRows(row, diff, sect)
+		diff = diff or selectedDifficulty
+		sect = sect or selectedSection
+	  
+		for j = 1, #row do
+		  if (row[j].target == "SEPARATOR") then
+            Separator()
+          else
+	    	if(search.filterString == "" or string.find(string.lower(row[j].item), string.lower(search.filterString), 1, true)) then
+              imgui.NewLine()
+              NextColumn()
 
-          -- target
-          imgui.TextColored(difficulty_color[selectedDifficulty][1], difficulty_color[selectedDifficulty][2], difficulty_color[selectedDifficulty][3], 1, Pad(row[j].target, padding))
-          NextColumn(2, 2)
+              -- target
+              imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, Pad(row[j].target, search.mode == "search" and paddingSmall or padding))
+              NextColumn(2, 2)
 
-          -- item
-          imgui.TextColored(section_color[selectedSection][1], section_color[selectedSection][2], section_color[selectedSection][3], 1, Pad(row[j].item, padding))
+              -- item
+              imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, Pad(row[j].item, search.mode == "search" and paddingSmall or padding))
+			  
+			  if search.mode == "search"
+			    NextColumn(2, 2)
+				-- difficulty
+				imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, Pad(diff, search.mode == "search" and paddingSmall or padding))
+				NextColumn(2, 2)
+
+				-- section
+				imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, Pad(sect, search.mode == "search" and paddingSmall or padding))
+		      end
+			
+              if imgui.IsItemHovered() then
+                getToolTip(row[j])
+              end
           
-          if imgui.IsItemHovered() then
-            getToolTip(row[j])
+              NextColumn()
+              Separator()
+		    end
           end
-          
-          NextColumn()
-          Separator()
         end
-      end
-    
+	  end
+
+	  -- Generate single row or all rows depending on search
+	  if search.filterString == "" or search.mode == "filter" then
+		local row = drop_charts[difficulty[selectedDifficulty]][episode[i]][section[selectedSection]]
+		generateRows(row)
+	  else
+		for d = 1, #difficulty do
+		  for e = 1, #episode do
+			for s = 1, #section do
+			  local row = drop_charts[difficulty[d]][episode[e]][section[s]]
+			  generateRows(row, difficulty[d], [section[s])
+			end
+		  end
+		end
+	  end
+	  
       imgui.TreePop()
     end
   end
@@ -640,7 +735,7 @@ local function init()
   
   return {
     name = "Drop Charts",
-    version = "1.0.2",
+    version = "1.1.1",
     author = "Seth Clydesdale",
     description = "Drop chart reference for PSOBB.",
     present = present
