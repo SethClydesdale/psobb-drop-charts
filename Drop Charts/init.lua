@@ -11,13 +11,10 @@ local drop_charts = {
 }
 
 -- window vars
-local window_open = true
+local window_open = false
 local button_func = function()
   window_open = not window_open
 end
-local windowArgs = {
-	"NoMove"
-}
 
 -- memory addresses
 local _SideMessage = pso.base_address + 0x006AECC8
@@ -154,7 +151,7 @@ end
 -- End Soly
 
 -- create an ASCII separator
-local separator = "+" .. string.rep("-", 86) .. "+"
+local separator = "+" .. string.rep("-", 86) .. "+" 
 local function Separator(noNewLine)
   if noNewLine == nil then
     imgui.NewLine()
@@ -696,11 +693,11 @@ end
 
 -- show the drop charts when opened
 local function present()
-  -- if window_open then
+  if window_open then
 	counter = counter + 1
     local status, dataFound = false
     imgui.SetNextWindowSize(700, 520, "FirstUseEver");
-    status, window_open = imgui.Begin("Drop Charts", window_open, windowArgs)
+    status, window_open = imgui.Begin("Drop Charts", window_open)
 	-- @todo: using counter prevents auto mode from updating upon party changes
     -- if counter % update_interval == 0 then
         local side = get_side_text()
@@ -725,7 +722,7 @@ local function present()
 	end
 	
     imgui.End()
-  -- end
+  end
 end
 
 
