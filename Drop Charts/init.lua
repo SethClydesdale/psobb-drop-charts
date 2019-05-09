@@ -745,4 +745,4 @@ return {
   __addon = {
     init = init
   }
-}}
+}
