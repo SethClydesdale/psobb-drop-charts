@@ -29,7 +29,7 @@ local party = { }
 local input = { }
 local counter = 0
 local update_interval = 10
-local fontScale = 1.25
+local fontScale = 1
 
 -- Auto/Manual Button Info
 local mode = {
@@ -123,7 +123,7 @@ local search = {
 	changed = true,
 	inputString = "",
 	filterString = "",
-	mode = "filter"
+	scope = "selection"
 }
 
 -- Soly's lib_helper functions for standalone addon
@@ -360,7 +360,7 @@ local getToolTip = function(item, diff, sect)
 		imgui.SetWindowFontScale(fontScale)
 		
 		-- if search, display difficulty and section
-		if search.mode == "search" then
+		if search.scope == "all" then
 			imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, difficulty[diff])
 			imgui.SameLine(0, 8)
             imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, section[sect])
@@ -438,30 +438,34 @@ end
 local getSearchInput = function()
   imgui.NewLine()
   
-  TextC(true, 0xFFFFFFFF, "Search: ")
-	  
-  imgui.PushItemWidth(185)
+  TextC(true, 0xFFFFFFFF, "Search for ")
+  imgui.SameLine(0, 0)
+  
+  imgui.PushItemWidth(168)
   search.changed, search.inputString = imgui.InputText("", search.inputString, 255)
   imgui.PopItemWidth()
   
-  imgui.SameLine(0, 10)
-  
-  if imgui.Button("Clear") then
-	search.filterString = ""
-	search.inputString = ""
-  end
-  if imgui.Button("Filter Selection") then
-	search.filterString = search.inputString
-	search.mode = "filter"
-  end
-  
-  TextC(false, 0xFFFFFFFF, "  or  ")
-  
+  TextC(false , 0xFFFFFFFF, " in ")
   imgui.SameLine(0,0)
   
-  if imgui.Button("Search All") then
+  if imgui.Button("Selection") then
 	search.filterString = search.inputString
-	search.mode = "search"
+	search.scope = "selection"
+  end
+  
+  TextC(false, 0xFFFFFFFF, " or ")
+  imgui.SameLine(0,0)
+  
+  if imgui.Button("All") then
+	search.filterString = search.inputString
+	search.scope = "all"
+  end
+  
+  imgui.SameLine(0,100)
+  
+  if imgui.Button("Clear Search") then
+	search.filterString = ""
+	search.inputString = ""
   end
   
   imgui.NewLine()
@@ -624,24 +628,26 @@ local drawDropCharts = function()
         
         if j == 1 then
           NextColumn(2, 2)
-		else
+        else
           NextColumn()
         end
       end
       
       Separator()
 	  
-	  --define rows function
+	  -- Define generateRows function, to accommodate search feature
 	  local function generateRows(row, diff, sect)
 		diff = diff or selectedDifficulty
 		sect = sect or selectedSection
 	  
 		for j = 1, #row do
 		  if (row[j].target == "SEPARATOR") then
+			-- Don't generate separators on searches to prevent empty skips between areas (otherwise, no results in an area still generates a starting separator)
             if (search.filterString == "") then
 			  Separator()
 			end
           else
+			-- Only display result row if no filterString or if a match occurs
 	    	if(search.filterString == "" or string.find(string.lower(row[j].item), string.lower(search.filterString), 1, true)) then
               imgui.NewLine()
               NextColumn()
@@ -664,11 +670,13 @@ local drawDropCharts = function()
         end
 	  end
 
-	  -- Generate single row or all rows depending on search
-	  if search.filterString == "" or search.mode == "filter" then
+	  -- Generate rows depending on search
+	  if search.filterString == "" or search.scope == "selection" then
+		-- No search term, or "selection" mode, so use rows with selected settings
 		local row = drop_charts[difficulty[selectedDifficulty]][episode[i]][section[selectedSection]]
 		generateRows(row)
 	  else
+		-- Iterate through all difficulties, episodes, and sections, using search.filterString
 		for d = 1, #difficulty do
 		  for e = 1, #episode do
 			for s = 1, #section do
@@ -737,4 +745,4 @@ return {
   __addon = {
     init = init
   }
-}
+}}
