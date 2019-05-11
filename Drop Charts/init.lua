@@ -115,6 +115,14 @@ local cols = {
   "Item"
 }
 
+-- Search Feature Info
+local search = {
+	changed = true,
+	inputString = "",
+	filterString = "",
+	scope = "selection"
+}
+
 -- Soly's lib_helper functions for standalone addon
 local function GetColorAsFloats(color)
     color = color or 0xFFFFFFFF
@@ -290,7 +298,10 @@ local function parse_side_message(text)
 end
 
 -- show tooltip with computed values
-local getToolTip = function(item)
+local getToolTip = function(item, diff, sect)
+
+	diff = diff or selectedDifficulty
+	sect = sect or selectedSection
 
 	local custom
 	
@@ -344,6 +355,15 @@ local getToolTip = function(item)
 	imgui.BeginTooltip()
 	
 		imgui.SetWindowFontScale(fontScale)
+		
+		-- if search, display difficulty and section
+		if search.scope == "all" then
+			imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, difficulty[diff])
+			imgui.SameLine(0, 8)
+            imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, section[sect])
+			imgui.NewLine()
+			imgui.NewLine()
+		end
 		
 		-- if party or item's dar has been adjusted
 		if custom.dar ~= 100 and item.dar ~= computedDar then
@@ -409,6 +429,43 @@ end
 local setMode = function(status)
 	mode.status = status
 	mode.changed = true
+end
+
+-- Search Feature
+local getSearchInput = function()
+  imgui.NewLine()
+  
+  TextC(true, 0xFFFFFFFF, "Search for ")
+  imgui.SameLine(0, 0)
+  
+  imgui.PushItemWidth(168)
+  search.changed, search.inputString = imgui.InputText("", search.inputString, 255)
+  imgui.PopItemWidth()
+  
+  TextC(false , 0xFFFFFFFF, " in ")
+  imgui.SameLine(0,0)
+  
+  if imgui.Button("Selection") then
+	search.filterString = search.inputString
+	search.scope = "selection"
+  end
+  
+  TextC(false, 0xFFFFFFFF, " or ")
+  imgui.SameLine(0,0)
+  
+  if imgui.Button("All") then
+	search.filterString = search.inputString
+	search.scope = "all"
+  end
+  
+  imgui.SameLine(0,100)
+  
+  if imgui.Button("Clear Search") then
+	search.filterString = ""
+	search.inputString = ""
+  end
+  
+  imgui.NewLine()
 end
 
 -- Party Dar/Rare inputs/configuration
@@ -529,6 +586,9 @@ local drawDropCharts = function()
   --get DAR/Rare input boxes
   getPartyConfig()
   
+  --get Search Input
+  getSearchInput()
+  
   -- title
   imgui.Spacing()
   imgui.SetWindowFontScale(1.6)
@@ -560,6 +620,7 @@ local drawDropCharts = function()
       NextColumn()
       
       for j = 1, #cols do
+		
         imgui.TextColored(1, 1, 0, 1, Pad(cols[j], padding))
         
         if j == 1 then
@@ -570,31 +631,59 @@ local drawDropCharts = function()
       end
       
       Separator()
-      
-      local row = drop_charts[difficulty[selectedDifficulty]][episode[i]][section[selectedSection]]
-      for j = 1, #row do
-        if (row[j].target == "SEPARATOR") then
-          Separator()
-        else
-          imgui.NewLine()
-          NextColumn()
+	  
+	  -- Define generateRows function, to accommodate search feature
+	  local function generateRows(row, diff, sect)
+		diff = diff or selectedDifficulty
+		sect = sect or selectedSection
+	  
+		for j = 1, #row do
+		  if (row[j].target == "SEPARATOR") then
+			-- Don't generate separators on searches to prevent empty skips between areas (otherwise, no results in an area still generates a starting separator)
+            if (search.filterString == "") then
+			  Separator()
+			end
+          else
+			-- Only display result row if no filterString or if a match occurs
+	    	if(search.filterString == "" or string.find(string.lower(row[j].item), string.lower(search.filterString), 1, true)) then
+              imgui.NewLine()
+              NextColumn()
 
-          -- target
-          imgui.TextColored(difficulty_color[selectedDifficulty][1], difficulty_color[selectedDifficulty][2], difficulty_color[selectedDifficulty][3], 1, Pad(row[j].target, padding))
-          NextColumn(2, 2)
+              -- target
+              imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, Pad(row[j].target, padding))
+              NextColumn(2, 2)
 
-          -- item
-          imgui.TextColored(section_color[selectedSection][1], section_color[selectedSection][2], section_color[selectedSection][3], 1, Pad(row[j].item, padding))
+              -- item
+              imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, Pad(row[j].item, padding))
+			
+              if imgui.IsItemHovered() then
+                getToolTip(row[j], diff, sect)
+              end
           
-          if imgui.IsItemHovered() then
-            getToolTip(row[j])
+              NextColumn()
+              Separator()
+		    end
           end
-          
-          NextColumn()
-          Separator()
         end
-      end
-    
+	  end
+
+	  -- Generate rows depending on search
+	  if search.filterString == "" or search.scope == "selection" then
+		-- No search term, or "selection" mode, so use rows with selected settings
+		local row = drop_charts[difficulty[selectedDifficulty]][episode[i]][section[selectedSection]]
+		generateRows(row)
+	  else
+		-- Iterate through all difficulties, episodes, and sections, using search.filterString
+		for d = 1, #difficulty do
+		  for e = 1, #episode do
+			for s = 1, #section do
+			  local row = drop_charts[difficulty[d]][episode[e]][section[s]]
+			  generateRows(row, d, s)
+			end
+		  end
+		end
+	  end
+	  
       imgui.TreePop()
     end
   end
