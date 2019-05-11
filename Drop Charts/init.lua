@@ -731,7 +731,7 @@ local function init()
   
   return {
     name = "Drop Charts",
-    version = "1.1.1",
+    version = "1.2.0",
     author = "Seth Clydesdale",
     description = "Drop chart reference for PSOBB.",
     present = present
