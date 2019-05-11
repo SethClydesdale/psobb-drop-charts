@@ -19,6 +19,9 @@ After this you can select the difficulty and section id to see what item an enem
 
 ### Change Log
 
+#### v1.2.0
+- Added search feature for quickly finding the item you're looking for thanks to [Paralax2062](https://github.com/SethClydesdale/psobb-drop-charts/pull/3). Type the item you're looking for then click "Selection" to search within the current difficulty and section id or "All" to search everything.
+
 #### v1.1.1
 - Updated drop chart information to reflect the recent changes made to the drop charts on Ephinea.
 - Fixed empty cells causing the addon to crash when hovered. These cells were simply removed as they provided no information.
