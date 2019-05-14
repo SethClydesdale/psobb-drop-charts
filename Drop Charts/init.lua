@@ -675,11 +675,9 @@ local drawDropCharts = function()
 	  else
 		-- Iterate through all difficulties, episodes, and sections, using search.filterString
 		for d = 1, #difficulty do
-		  for e = 1, #episode do
-			for s = 1, #section do
-			  local row = drop_charts[difficulty[d]][episode[e]][section[s]]
-			  generateRows(row, d, s)
-			end
+		  for s = 1, #section do
+		    local row = drop_charts[difficulty[d]][episode[i]][section[s]]
+		    generateRows(row, d, s)
 		  end
 		end
 	  end
