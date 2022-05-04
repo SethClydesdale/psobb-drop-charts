@@ -215,6 +215,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Sense Plate",
+        ["dar"] = 30,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Agito (2001)",
         ["dar"] = 85,
@@ -230,6 +236,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "Varista",
         ["dar"] = 28,
+        ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Crush Bullet",
+        ["dar"] = 30,
         ["rare"] = 0.78125
       },
       {
@@ -472,6 +484,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Graviton Plate",
+        ["dar"] = 30,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Elysion",
         ["dar"] = 85,
@@ -487,6 +505,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "Varista",
         ["dar"] = 28,
+        ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "D-Parts ver1.01",
+        ["dar"] = 30,
         ["rare"] = 0.78125
       },
       {
@@ -729,6 +753,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Graviton Plate",
+        ["dar"] = 30,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Brave Knuckle",
         ["dar"] = 85,
@@ -744,6 +774,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "DB's Saber",
         ["dar"] = 28,
+        ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "D-Parts ver1.01",
+        ["dar"] = 30,
         ["rare"] = 0.78125
       },
       {
@@ -986,6 +1022,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Graviton Plate",
+        ["dar"] = 30,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Elysion",
         ["dar"] = 85,
@@ -1001,6 +1043,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "Club of Laconium",
         ["dar"] = 28,
+        ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Brionac",
+        ["dar"] = 30,
         ["rare"] = 0.78125
       },
       {
@@ -1243,6 +1291,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Sense Plate",
+        ["dar"] = 30,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Elysion",
         ["dar"] = 85,
@@ -1258,6 +1312,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "Club of Laconium",
         ["dar"] = 28,
+        ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "M&A60 Vise",
+        ["dar"] = 30,
         ["rare"] = 0.78125
       },
       {
@@ -1500,6 +1560,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Fire Scepter: Agni",
+        ["dar"] = 30,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Elysion",
         ["dar"] = 85,
@@ -1515,6 +1581,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "Club of Laconium",
         ["dar"] = 28,
+        ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Fire Scepter: Agni",
+        ["dar"] = 30,
         ["rare"] = 0.78125
       },
       {
@@ -1757,6 +1829,12 @@ return {
         ["rare"] = 1.56250
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Slicer of Assassin",
+        ["dar"] = 30,
+        ["rare"] = 1.56250
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Diska of Liberator",
         ["dar"] = 85,
@@ -1773,6 +1851,12 @@ return {
         ["item"] = "DB's Saber",
         ["dar"] = 28,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "D-Parts ver1.01",
+        ["dar"] = 30,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -2014,6 +2098,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Sense Plate",
+        ["dar"] = 30,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Elysion",
         ["dar"] = 85,
@@ -2029,6 +2119,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "DB's Saber",
         ["dar"] = 28,
+        ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Club of Laconium",
+        ["dar"] = 30,
         ["rare"] = 0.78125
       },
       {
@@ -2271,6 +2367,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Club of Laconium",
+        ["dar"] = 30,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Branch of Pakupaku",
         ["dar"] = 85,
@@ -2286,6 +2388,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "Varista",
         ["dar"] = 28,
+        ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "D-Parts ver1.01",
+        ["dar"] = 30,
         ["rare"] = 0.78125
       },
       {
@@ -2528,6 +2636,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Sense Plate",
+        ["dar"] = 30,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Diska of Liberator",
         ["dar"] = 85,
@@ -2543,6 +2657,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "DB's Saber",
         ["dar"] = 28,
+        ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Slicer of Assassin",
+        ["dar"] = 30,
         ["rare"] = 0.78125
       },
       {
@@ -5662,7 +5782,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Varista",
         ["dar"] = 32,
         ["rare"] = 0.68359
@@ -5781,7 +5901,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Custom Ray ver.OO",
         ["dar"] = 32,
         ["rare"] = 0.68359
@@ -5900,7 +6020,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Battle Verge",
         ["dar"] = 32,
         ["rare"] = 0.87891
@@ -6019,7 +6139,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Mace of Adaman",
         ["dar"] = 32,
         ["rare"] = 0.68359
@@ -6138,7 +6258,7 @@ return {
         ["rare"] = 0.87891
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Club of Zumiuran",
         ["dar"] = 32,
         ["rare"] = 0.97656
@@ -6257,7 +6377,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Brave Knuckle",
         ["dar"] = 32,
         ["rare"] = 0.68359
@@ -6376,7 +6496,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Brave Knuckle",
         ["dar"] = 32,
         ["rare"] = 0.68359
@@ -6495,7 +6615,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Blade Dance",
         ["dar"] = 32,
         ["rare"] = 0.87891
@@ -6614,7 +6734,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Blade Dance",
         ["dar"] = 32,
         ["rare"] = 0.78125
@@ -6733,7 +6853,7 @@ return {
         ["rare"] = 0.97656
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Varista",
         ["dar"] = 32,
         ["rare"] = 0.68359
@@ -7239,7 +7359,7 @@ return {
       },
       {
         ["target"] = "Ruins 1",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.07935
       },
@@ -7795,7 +7915,7 @@ return {
       },
       {
         ["target"] = "Seabed: Upper Levels",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.08545
       },
@@ -7851,7 +7971,7 @@ return {
       },
       {
         ["target"] = "Seabed: Upper Levels",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.08545
       },
@@ -7907,7 +8027,7 @@ return {
       },
       {
         ["target"] = "Seabed: Upper Levels",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.08545
       },

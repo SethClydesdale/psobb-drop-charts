@@ -185,6 +185,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Invisible Guard",
+        ["dar"] = 40,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Trimate",
         ["dar"] = 85,
@@ -195,6 +201,12 @@ return {
         ["item"] = "Def Material",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Crush Bullet",
+        ["dar"] = 30,
+        ["rare"] = 0.01068
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -400,6 +412,12 @@ return {
         ["rare"] = 0.01373
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Visk-235W",
+        ["dar"] = 40,
+        ["rare"] = 0.01373
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Trimate",
         ["dar"] = 85,
@@ -410,6 +428,12 @@ return {
         ["item"] = "Sol Atomizer",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Visk-235W",
+        ["dar"] = 30,
+        ["rare"] = 0.02136
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -615,6 +639,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Invisible Guard",
+        ["dar"] = 40,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Trimate",
         ["dar"] = 85,
@@ -625,6 +655,12 @@ return {
         ["item"] = "Sol Atomizer",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Sacred Guard",
+        ["dar"] = 30,
+        ["rare"] = 0.01678
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -830,6 +866,12 @@ return {
         ["rare"] = 0.01373
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Brionac",
+        ["dar"] = 40,
+        ["rare"] = 0.01373
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Trimate",
         ["dar"] = 85,
@@ -840,6 +882,12 @@ return {
         ["item"] = "Sol Atomizer",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Sacred Guard",
+        ["dar"] = 30,
+        ["rare"] = 0.03357
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1045,6 +1093,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Invisible Guard",
+        ["dar"] = 40,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Sol Atomizer",
         ["dar"] = 85,
@@ -1055,6 +1109,12 @@ return {
         ["item"] = "Trimate",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Sacred Guard",
+        ["dar"] = 30,
+        ["rare"] = 0.03357
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1260,6 +1320,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Invisible Guard",
+        ["dar"] = 40,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Trimate",
         ["dar"] = 85,
@@ -1270,6 +1336,12 @@ return {
         ["item"] = "Trimate",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Fire Scepter: Agni",
+        ["dar"] = 30,
+        ["rare"] = 0.02136
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1475,6 +1547,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Invisible Guard",
+        ["dar"] = 40,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Trimate",
         ["dar"] = 85,
@@ -1485,6 +1563,12 @@ return {
         ["item"] = "Trimate",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Sacred Guard",
+        ["dar"] = 30,
+        ["rare"] = 0.03357
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1690,6 +1774,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "S-Parts ver2.01",
+        ["dar"] = 40,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Trimate",
         ["dar"] = 85,
@@ -1700,6 +1790,12 @@ return {
         ["item"] = "Trimate",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Blade Dance",
+        ["dar"] = 30,
+        ["rare"] = 0.02136
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1905,6 +2001,12 @@ return {
         ["rare"] = 0.03357
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Invisible Guard",
+        ["dar"] = 40,
+        ["rare"] = 0.03357
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Trimate",
         ["dar"] = 85,
@@ -1915,6 +2017,12 @@ return {
         ["item"] = "Trimate",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Sacred Guard",
+        ["dar"] = 30,
+        ["rare"] = 0.03357
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -2120,6 +2228,12 @@ return {
         ["rare"] = 0.01373
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Slicer of Assassin",
+        ["dar"] = 40,
+        ["rare"] = 0.01373
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Trimate",
         ["dar"] = 85,
@@ -2130,6 +2244,12 @@ return {
         ["item"] = "Trimate",
         ["dar"] = 40,
         ["rare"] = 56.25000
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Sacred Guard",
+        ["dar"] = 30,
+        ["rare"] = 0.03357
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -4943,7 +5063,7 @@ return {
       },
       {
         ["target"] = "Ruins 1",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.08545
       },
@@ -4987,7 +5107,7 @@ return {
       },
       {
         ["target"] = "Ruins 1",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.08545
       },
@@ -5401,7 +5521,7 @@ return {
       },
       {
         ["target"] = "Seabed: Upper Levels",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.08545
       },
@@ -5483,7 +5603,7 @@ return {
       },
       {
         ["target"] = "Seabed: Upper Levels",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.08545
       },

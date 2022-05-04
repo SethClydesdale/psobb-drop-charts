@@ -215,6 +215,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Custom Frame ver.OO",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Final Impact",
         ["dar"] = 88,
@@ -231,6 +237,12 @@ return {
         ["item"] = "Brionac",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "DB's Shield",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -472,6 +484,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "D-Parts ver1.01",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Star Atomizer",
         ["dar"] = 88,
@@ -488,6 +506,12 @@ return {
         ["item"] = "Wals-MK2",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "DB's Shield",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -729,6 +753,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Stink Frame",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Dragon Slayer",
         ["dar"] = 88,
@@ -745,6 +775,12 @@ return {
         ["item"] = "Last Survivor",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "DB's Armor",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -986,6 +1022,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Custom Frame ver.OO",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Gae Bolg",
         ["dar"] = 88,
@@ -1002,6 +1044,12 @@ return {
         ["item"] = "Brave Hammer",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "D-Parts ver2.10",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1243,6 +1291,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Stink Frame",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "L&K14 Combat",
         ["dar"] = 88,
@@ -1259,6 +1313,12 @@ return {
         ["item"] = "H&S25 Justice",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "DB's Armor",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1500,6 +1560,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "DB's Shield",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Storm Wand: Indra",
         ["dar"] = 88,
@@ -1516,6 +1582,12 @@ return {
         ["item"] = "Ice Staff: Dagon",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "D-Parts ver2.10",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1757,6 +1829,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "DB's Armor",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Diska of Liberator",
         ["dar"] = 88,
@@ -1773,6 +1851,12 @@ return {
         ["item"] = "Diska of Liberator",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "D-Parts ver2.10",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -2014,6 +2098,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Stink Frame",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Cross Scar",
         ["dar"] = 88,
@@ -2030,6 +2120,12 @@ return {
         ["item"] = "Bloody Art",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "D-Parts ver2.10",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -2271,6 +2367,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Custom Frame ver.OO",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Brave Hammer",
         ["dar"] = 88,
@@ -2287,6 +2389,12 @@ return {
         ["item"] = "Bloody Art",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "DB's Shield",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -2528,6 +2636,12 @@ return {
         ["rare"] = 0.78125
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Stink Frame",
+        ["dar"] = 45,
+        ["rare"] = 0.78125
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Diska of Liberator",
         ["dar"] = 88,
@@ -2544,6 +2658,12 @@ return {
         ["item"] = "Diska of Liberator",
         ["dar"] = 30,
         ["rare"] = 0.78125
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "DB's Armor",
+        ["dar"] = 35,
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -3470,7 +3590,7 @@ return {
       },
       {
         ["target"] = "Delbiter/Delbiter",
-        ["item"] = "Justy-23ST",
+        ["item"] = "God/Battle",
         ["dar"] = 80,
         ["rare"] = 2.73438
       },
@@ -3754,7 +3874,7 @@ return {
       },
       {
         ["target"] = "Morfos/Morfos",
-        ["item"] = "Brave Hammer",
+        ["item"] = "God/Battle",
         ["dar"] = 40,
         ["rare"] = 1.56250
       },
@@ -4684,7 +4804,7 @@ return {
       },
       {
         ["target"] = "Sinow Zoa/Sinow Zoa",
-        ["item"] = "Devil/Battle",
+        ["item"] = "God/Battle",
         ["dar"] = 30,
         ["rare"] = 1.56250
       },
@@ -4992,7 +5112,7 @@ return {
       },
       {
         ["target"] = "Sinow Zoa/Sinow Zoa",
-        ["item"] = "Blade Dance",
+        ["item"] = "God/Battle",
         ["dar"] = 30,
         ["rare"] = 1.56250
       },
@@ -5662,7 +5782,7 @@ return {
         ["rare"] = 0.17090
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Cursed Cloak",
         ["dar"] = 38,
         ["rare"] = 0.13428
@@ -5681,7 +5801,7 @@ return {
       },
       {
         ["target"] = "Dorphon Eclair",
-        ["item"] = "Tanegashima",
+        ["item"] = "God/Battle",
         ["dar"] = 100,
         ["rare"] = 50.00000
       },
@@ -5793,7 +5913,7 @@ return {
         ["rare"] = 0.87891
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Alliance Uniform",
         ["dar"] = 38,
         ["rare"] = 0.31738
@@ -5924,7 +6044,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Durandal",
         ["dar"] = 38,
         ["rare"] = 0.68359
@@ -6055,7 +6175,7 @@ return {
         ["rare"] = 0.87891
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Asuka",
         ["dar"] = 38,
         ["rare"] = 0.68359
@@ -6186,7 +6306,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Yamato",
         ["dar"] = 38,
         ["rare"] = 0.87891
@@ -6241,7 +6361,7 @@ return {
       },
       {
         ["target"] = "Pazuzu",
-        ["item"] = "Heaven Striker Coat",
+        ["item"] = "God/Battle",
         ["dar"] = 100,
         ["rare"] = 50.00000
       },
@@ -6317,7 +6437,7 @@ return {
         ["rare"] = 0.78125
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Ice Staff: Dagon",
         ["dar"] = 38,
         ["rare"] = 0.68359
@@ -6448,7 +6568,7 @@ return {
         ["rare"] = 0.87891
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Diska of Liberator",
         ["dar"] = 38,
         ["rare"] = 0.68359
@@ -6579,7 +6699,7 @@ return {
         ["rare"] = 0.87891
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Congeal Cloak",
         ["dar"] = 38,
         ["rare"] = 0.13428
@@ -6710,7 +6830,7 @@ return {
         ["rare"] = 0.19531
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Infantry Mantle",
         ["dar"] = 38,
         ["rare"] = 0.31738
@@ -6841,7 +6961,7 @@ return {
         ["rare"] = 0.17090
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Slicer of Assassin",
         ["dar"] = 38,
         ["rare"] = 0.68359
@@ -7335,7 +7455,7 @@ return {
       },
       {
         ["target"] = "Ruins 2",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.08545
       },
@@ -7447,7 +7567,7 @@ return {
       },
       {
         ["target"] = "Ruins 2",
-        ["item"] = "Amplifier of Red ",
+        ["item"] = "Amplifier of Red",
         ["dar"] = 100,
         ["rare"] = 0.08545
       },
