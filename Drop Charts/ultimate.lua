@@ -51,9 +51,9 @@ return {
       },
       {
         ["target"] = "Gobooma/Barble",
-        ["item"] = "Guilty Light",
+        ["item"] = "Heart of Daisy Chain",
         ["dar"] = 38,
-        ["rare"] = 1.56250
+        ["rare"] = 0.03052
       },
       {
         ["target"] = "Gigobooma/Tollaw",
@@ -153,7 +153,7 @@ return {
       },
       {
         ["target"] = "Dubchic/Dubchich",
-        ["item"] = "Devil/Battle",
+        ["item"] = "Heavenly/Battle",
         ["dar"] = 30,
         ["rare"] = 0.19531
       },
@@ -221,6 +221,12 @@ return {
         ["rare"] = 0.09766
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Luminous Field",
+        ["dar"] = 45,
+        ["rare"] = 0.09766
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Bringer's Right Arm",
         ["dar"] = 88,
@@ -237,6 +243,12 @@ return {
         ["item"] = "Silence Claw",
         ["dar"] = 30,
         ["rare"] = 1.56250
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Sacred Cloth",
+        ["dar"] = 35,
+        ["rare"] = 0.09766
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -490,6 +502,12 @@ return {
         ["rare"] = 0.31738
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Red Mechgun",
+        ["dar"] = 45,
+        ["rare"] = 0.31738
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Monkey King Bar",
         ["dar"] = 88,
@@ -506,6 +524,12 @@ return {
         ["item"] = "Cross Scar",
         ["dar"] = 30,
         ["rare"] = 1.56250
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Cure/Paralysis",
+        ["dar"] = 35,
+        ["rare"] = 0.09766
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -759,6 +783,12 @@ return {
         ["rare"] = 0.00992
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Skyly Card",
+        ["dar"] = 45,
+        ["rare"] = 0.00992
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Meteor Cudgel",
         ["dar"] = 88,
@@ -775,6 +805,12 @@ return {
         ["item"] = "Silence Claw",
         ["dar"] = 30,
         ["rare"] = 1.56250
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Morning Glory",
+        ["dar"] = 35,
+        ["rare"] = 0.31738
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1028,6 +1064,12 @@ return {
         ["rare"] = 0.31738
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Red Slicer",
+        ["dar"] = 45,
+        ["rare"] = 0.31738
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Monkey King Bar",
         ["dar"] = 88,
@@ -1046,10 +1088,16 @@ return {
         ["rare"] = 1.56250
       },
       {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Heavenly/Battle",
+        ["dar"] = 35,
+        ["rare"] = 0.31738
+      },
+      {
         ["target"] = "Bulclaw/Bulclaw",
-        ["item"] = "Devil/Battle",
+        ["item"] = "Heavenly/Battle",
         ["dar"] = 45,
-        ["rare"] = 0.19531
+        ["rare"] = 0.31738
       },
       {
         ["target"] = "Dimenian/Arlan",
@@ -1297,6 +1345,12 @@ return {
         ["rare"] = 0.09766
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Sacred Guard",
+        ["dar"] = 45,
+        ["rare"] = 0.09766
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Bringer's Right Arm",
         ["dar"] = 88,
@@ -1313,6 +1367,12 @@ return {
         ["item"] = "Mahu",
         ["dar"] = 30,
         ["rare"] = 1.56250
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "DF Field",
+        ["dar"] = 35,
+        ["rare"] = 0.09766
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1431,7 +1491,7 @@ return {
         ["target"] = "Nar Lily/Mil Lily",
         ["item"] = "Heavenly/Arms",
         ["dar"] = 100,
-        ["rare"] = 50.00000
+        ["rare"] = 31.25000
       },
       {
         ["target"] = "Nano Dragon/Nano Dragon",
@@ -1504,9 +1564,9 @@ return {
       },
       {
         ["target"] = "Gilchic/Gilchich",
-        ["item"] = "Gae Bolg",
+        ["item"] = "Heart of Izmaela",
         ["dar"] = 30,
-        ["rare"] = 1.56250
+        ["rare"] = 0.03662
       },
       {
         ["target"] = "Garanz/Baranz",
@@ -1566,6 +1626,12 @@ return {
         ["rare"] = 0.31738
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Morning Glory",
+        ["dar"] = 45,
+        ["rare"] = 0.31738
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Bringer's Right Arm",
         ["dar"] = 88,
@@ -1582,6 +1648,12 @@ return {
         ["item"] = "Silence Claw",
         ["dar"] = 30,
         ["rare"] = 0.31738
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Evil Curst",
+        ["dar"] = 35,
+        ["rare"] = 0.00992
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -1647,9 +1719,9 @@ return {
       },
       {
         ["target"] = "Savage Wolf/Gulgus",
-        ["item"] = "Divinity Armor",
+        ["item"] = "Flowen's Frame",
         ["dar"] = 30,
-        ["rare"] = 0.31738
+        ["rare"] = 0.48828
       },
       {
         ["target"] = "Barbarous Wolf/Gulgus-Gue",
@@ -1773,9 +1845,9 @@ return {
       },
       {
         ["target"] = "Gilchic/Gilchich",
-        ["item"] = "TP/Revival",
+        ["item"] = "Heart of Sorcerer's Cane",
         ["dar"] = 30,
-        ["rare"] = 0.31738
+        ["rare"] = 0.03662
       },
       {
         ["target"] = "Garanz/Baranz",
@@ -1835,6 +1907,12 @@ return {
         ["rare"] = 0.19531
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Smoking Plate",
+        ["dar"] = 45,
+        ["rare"] = 0.19531
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Spread Needle",
         ["dar"] = 88,
@@ -1850,6 +1928,12 @@ return {
         ["target"] = "Claw/Claw",
         ["item"] = "Celestial Armor",
         ["dar"] = 30,
+        ["rare"] = 0.31738
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "God/Technique",
+        ["dar"] = 35,
         ["rare"] = 0.31738
       },
       {
@@ -2093,12 +2177,18 @@ return {
       },
       {
         ["target"] = "Chaos Sorcerer/Gran Sorcerer",
-        ["item"] = "Sorcerer's Right Arm",
+        ["item"] = "Book of Hitogata",
         ["dar"] = 35,
-        ["rare"] = 0.31738
+        ["rare"] = 0.00992
       },
       {
         ["target"] = "Dark Gunner/Dark Gunner",
+        ["item"] = "Morning Glory",
+        ["dar"] = 45,
+        ["rare"] = 0.31738
+      },
+      {
+        ["target"] = "Death Gunner/Death Gunner",
         ["item"] = "Morning Glory",
         ["dar"] = 45,
         ["rare"] = 0.31738
@@ -2122,6 +2212,12 @@ return {
         ["rare"] = 1.56250
       },
       {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Kasami Bracer",
+        ["dar"] = 35,
+        ["rare"] = 0.09766
+      },
+      {
         ["target"] = "Bulclaw/Bulclaw",
         ["item"] = "Kasami Bracer",
         ["dar"] = 45,
@@ -2141,9 +2237,9 @@ return {
       },
       {
         ["target"] = "So Dimenian/Del-D",
-        ["item"] = "Devil/Battle",
+        ["item"] = "Heavenly/Battle",
         ["dar"] = 35,
-        ["rare"] = 0.19531
+        ["rare"] = 0.31738
       },
       {
         ["target"] = "Dark Falz/Dark Falz",
@@ -2278,9 +2374,9 @@ return {
       },
       {
         ["target"] = "Pan Arms/Pan Arms",
-        ["item"] = "P-arm's Arms",
+        ["item"] = "Heart of Tension Blaster",
         ["dar"] = 90,
-        ["rare"] = 0.31738
+        ["rare"] = 0.01984
       },
       {
         ["target"] = "Migium/Migium",
@@ -2356,9 +2452,9 @@ return {
       },
       {
         ["target"] = "Delsaber/Delsaber",
-        ["item"] = "Swordsman Lore",
+        ["item"] = "Delsaber's Left Arm",
         ["dar"] = 45,
-        ["rare"] = 0.17090
+        ["rare"] = 0.48828
       },
       {
         ["target"] = "Chaos Sorcerer/Gran Sorcerer",
@@ -2368,6 +2464,12 @@ return {
       },
       {
         ["target"] = "Dark Gunner/Dark Gunner",
+        ["item"] = "Guardianna",
+        ["dar"] = 45,
+        ["rare"] = 0.31738
+      },
+      {
+        ["target"] = "Death Gunner/Death Gunner",
         ["item"] = "Guardianna",
         ["dar"] = 45,
         ["rare"] = 0.31738
@@ -2389,6 +2491,12 @@ return {
         ["item"] = "DB's Saber (3075)",
         ["dar"] = 30,
         ["rare"] = 1.56250
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "Psycho Wand",
+        ["dar"] = 35,
+        ["rare"] = 0.00095
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -2610,9 +2718,9 @@ return {
       },
       {
         ["target"] = "Canane/Canune",
-        ["item"] = "Asuka",
+        ["item"] = "Yahoo!'s engine",
         ["dar"] = 35,
-        ["rare"] = 0.31738
+        ["rare"] = 0.48828
       },
       {
         ["target"] = "Vol Opt/Vol Opt ver. 2",
@@ -2642,6 +2750,12 @@ return {
         ["rare"] = 0.31738
       },
       {
+        ["target"] = "Death Gunner/Death Gunner",
+        ["item"] = "Red Slicer",
+        ["dar"] = 45,
+        ["rare"] = 0.31738
+      },
+      {
         ["target"] = "Chaos Bringer/Dark Bringer",
         ["item"] = "Rico's Earring",
         ["dar"] = 88,
@@ -2649,15 +2763,21 @@ return {
       },
       {
         ["target"] = "Dark Belra/Indi Belra",
-        ["item"] = "Belra's Right Arm",
+        ["item"] = "Heart of DB's Saber",
         ["dar"] = 45,
-        ["rare"] = 0.31738
+        ["rare"] = 0.03357
       },
       {
         ["target"] = "Claw/Claw",
         ["item"] = "Perfect/Resist",
         ["dar"] = 30,
         ["rare"] = 0.19531
+      },
+      {
+        ["target"] = "Bulk/Bulk",
+        ["item"] = "DF Field",
+        ["dar"] = 35,
+        ["rare"] = 0.09766
       },
       {
         ["target"] = "Bulclaw/Bulclaw",
@@ -2848,9 +2968,9 @@ return {
       },
       {
         ["target"] = "Chaos Sorcerer/Gran Sorcerer",
-        ["item"] = "Sorcerer's Right Arm",
+        ["item"] = "Heart of Crazy Tune",
         ["dar"] = 25,
-        ["rare"] = 0.31738
+        ["rare"] = 0.06104
       },
       {
         ["target"] = "Gol Dragon/Gol Dragon",
@@ -3063,7 +3183,7 @@ return {
       },
       {
         ["target"] = "Nar Lily/Mil Lily",
-        ["item"] = "Rage de Feu",
+        ["item"] = "Rage de Glace",
         ["dar"] = 100,
         ["rare"] = 50.00000
       },
@@ -3261,9 +3381,9 @@ return {
       },
       {
         ["target"] = "Gal Gryphon/Gal Gryphon",
-        ["item"] = "Gal Gryphon's Wing",
+        ["item"] = "Heart of Rabbit Wand",
         ["dar"] = 100,
-        ["rare"] = 4.29688
+        ["rare"] = 0.78125
       },
       {
         ["target"] = "SEPARATOR"
@@ -3339,9 +3459,9 @@ return {
       },
       {
         ["target"] = "Epsilon/Epsilon",
-        ["item"] = "Cladding of Epsilon",
+        ["item"] = "Heart of Rianov 303SNR",
         ["dar"] = 30,
-        ["rare"] = 1.56250
+        ["rare"] = 0.15869
       }
     },
     ["Skyly"] = {
@@ -3365,15 +3485,15 @@ return {
       },
       {
         ["target"] = "Rag Rappy/El Rappy",
-        ["item"] = "Parts of Egg Blaster",
+        ["item"] = "Vivienne",
         ["dar"] = 100,
-        ["rare"] = 0.31738
+        ["rare"] = 0.09766
       },
       {
         ["target"] = "Love Rappy/Love Rappy",
-        ["item"] = "Vivienne",
+        ["item"] = "Parts of Egg Blaster",
         ["dar"] = 100,
-        ["rare"] = 50.00000
+        ["rare"] = 87.50000
       },
       {
         ["target"] = "Grass Assassin/Crimson Assassin",
@@ -3721,9 +3841,9 @@ return {
       },
       {
         ["target"] = "Dark Belra/Indi Belra",
-        ["item"] = "Angry Fist",
+        ["item"] = "Heart of Morolian",
         ["dar"] = 35,
-        ["rare"] = 1.56250
+        ["rare"] = 0.13428
       },
       {
         ["target"] = "Dimenian/Arlan",
@@ -3814,9 +3934,9 @@ return {
       },
       {
         ["target"] = "Garanz/Baranz",
-        ["item"] = "Parts of Baranz",
+        ["item"] = "Heart of Crazy Tune",
         ["dar"] = 50,
-        ["rare"] = 0.31738
+        ["rare"] = 0.03052
       },
       {
         ["target"] = "Delsaber/Delsaber",
@@ -4065,9 +4185,9 @@ return {
       },
       {
         ["target"] = "So Dimenian/Del-D",
-        ["item"] = "Spirit Garment",
+        ["item"] = "Heart of Suppressed Gun",
         ["dar"] = 30,
-        ["rare"] = 0.31738
+        ["rare"] = 0.03662
       },
       {
         ["target"] = "Barba Ray/Barba Ray",
@@ -4146,15 +4266,15 @@ return {
       },
       {
         ["target"] = "Delsaber/Delsaber",
-        ["item"] = "Rage de Feu",
+        ["item"] = "Rage de Foudre",
         ["dar"] = 25,
         ["rare"] = 0.31738
       },
       {
         ["target"] = "Chaos Sorcerer/Gran Sorcerer",
-        ["item"] = "Sorcerer's Right Arm",
+        ["item"] = "Pioneer Parts",
         ["dar"] = 25,
-        ["rare"] = 0.31738
+        ["rare"] = 0.19531
       },
       {
         ["target"] = "Gol Dragon/Gol Dragon",
@@ -4284,15 +4404,15 @@ return {
       },
       {
         ["target"] = "Deldepth/Deldepth",
-        ["item"] = "Electro Frame",
+        ["item"] = "Heart of Yasminkov 9000M",
         ["dar"] = 40,
-        ["rare"] = 0.13428
+        ["rare"] = 0.03967
       },
       {
         ["target"] = "Delbiter/Delbiter",
-        ["item"] = "Handgun: Guld",
+        ["item"] = "The Sigh of a God",
         ["dar"] = 80,
-        ["rare"] = 0.00420
+        ["rare"] = 0.31738
       },
       {
         ["target"] = "Olga Flow/Olga Flow",
@@ -4343,15 +4463,15 @@ return {
       },
       {
         ["target"] = "Rag Rappy/El Rappy",
-        ["item"] = "Parts of Egg Blaster",
+        ["item"] = "Vivienne",
         ["dar"] = 100,
-        ["rare"] = 0.31738
+        ["rare"] = 0.09766
       },
       {
         ["target"] = "Love Rappy/Love Rappy",
-        ["item"] = "Vivienne",
+        ["item"] = "Parts of Egg Blaster",
         ["dar"] = 100,
-        ["rare"] = 50.00000
+        ["rare"] = 87.50000
       },
       {
         ["target"] = "Grass Assassin/Crimson Assassin",
@@ -4637,9 +4757,9 @@ return {
       },
       {
         ["target"] = "Del Lily/Del Lily",
-        ["item"] = "Heart of Poumn",
+        ["item"] = "Heart of Lollipop",
         ["dar"] = 35,
-        ["rare"] = 0.31738
+        ["rare"] = 0.04272
       },
       {
         ["target"] = "Epsilon/Epsilon",
@@ -4669,15 +4789,15 @@ return {
       },
       {
         ["target"] = "Rag Rappy/El Rappy",
-        ["item"] = "Suppressed Gun",
+        ["item"] = "Rambling May",
         ["dar"] = 100,
-        ["rare"] = 0.31738
+        ["rare"] = 0.09766
       },
       {
         ["target"] = "Love Rappy/Love Rappy",
-        ["item"] = "Rambling May",
+        ["item"] = "Suppressed Gun",
         ["dar"] = 100,
-        ["rare"] = 50.00000
+        ["rare"] = 87.50000
       },
       {
         ["target"] = "Grass Assassin/Crimson Assassin",
@@ -4825,9 +4945,9 @@ return {
       },
       {
         ["target"] = "Meriltas/Meriltas",
-        ["item"] = "Plantain Leaf",
+        ["item"] = "Amitie's Memo",
         ["dar"] = 35,
-        ["rare"] = 0.31738
+        ["rare"] = 0.07935
       },
       {
         ["target"] = "Gee/Gee",
@@ -4891,9 +5011,9 @@ return {
       },
       {
         ["target"] = "Gal Gryphon/Gal Gryphon",
-        ["item"] = "Gal Gryphon's Wing",
+        ["item"] = "Heart of Rabbit Wand",
         ["dar"] = 100,
-        ["rare"] = 4.29688
+        ["rare"] = 0.78125
       },
       {
         ["target"] = "SEPARATOR"
@@ -5130,9 +5250,9 @@ return {
       },
       {
         ["target"] = "Chaos Sorcerer/Gran Sorcerer",
-        ["item"] = "Book of Hitogata",
+        ["item"] = "Guren",
         ["dar"] = 25,
-        ["rare"] = 0.00992
+        ["rare"] = 0.31738
       },
       {
         ["target"] = "Gol Dragon/Gol Dragon",
@@ -5456,7 +5576,7 @@ return {
       },
       {
         ["target"] = "Chaos Sorcerer/Gran Sorcerer",
-        ["item"] = "Rage de Feu",
+        ["item"] = "Rage de Foudre",
         ["dar"] = 25,
         ["rare"] = 0.09766
       },
@@ -5635,7 +5755,7 @@ return {
       },
       {
         ["target"] = "Hildeblue/Hildetorr",
-        ["item"] = "Rage de Feu",
+        ["item"] = "Rage de Glace",
         ["dar"] = 100,
         ["rare"] = 50.00000
       },
@@ -5647,15 +5767,15 @@ return {
       },
       {
         ["target"] = "Rag Rappy/El Rappy",
-        ["item"] = "DB's Saber (3077)",
+        ["item"] = "Rambling May",
         ["dar"] = 100,
-        ["rare"] = 0.00992
+        ["rare"] = 0.09766
       },
       {
         ["target"] = "Love Rappy/Love Rappy",
-        ["item"] = "Rambling May",
+        ["item"] = "DB's Saber (3077)",
         ["dar"] = 100,
-        ["rare"] = 50.00000
+        ["rare"] = 4.68750
       },
       {
         ["target"] = "Grass Assassin/Crimson Assassin",
@@ -5833,9 +5953,9 @@ return {
       },
       {
         ["target"] = "Mericus/Mericus",
-        ["item"] = "Red Scorpio",
+        ["item"] = "Handgun: Guld",
         ["dar"] = 80,
-        ["rare"] = 0.31738
+        ["rare"] = 0.00610
       },
       {
         ["target"] = "Ul Gibbon/Ul Gibbon",
@@ -5962,7 +6082,7 @@ return {
         ["rare"] = 0.31738
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Ano Bazooka",
         ["dar"] = 38,
         ["rare"] = 0.31738
@@ -6019,7 +6139,7 @@ return {
         ["target"] = "Pazuzu",
         ["item"] = "L&K38 Combat",
         ["dar"] = 100,
-        ["rare"] = 34.37500
+        ["rare"] = 50.00000
       },
       {
         ["target"] = "Astark",
@@ -6056,7 +6176,7 @@ return {
       },
       {
         ["target"] = "Merissa AA",
-        ["item"] = "Rage de Feu",
+        ["item"] = "Rage d'Ame",
         ["dar"] = 100,
         ["rare"] = 50.00000
       },
@@ -6068,7 +6188,7 @@ return {
       },
       {
         ["target"] = "Saint Million",
-        ["item"] = "Heavenly/Ability",
+        ["item"] = "Crimson Coat",
         ["dar"] = 100,
         ["rare"] = 2.53906
       },
@@ -6093,7 +6213,7 @@ return {
         ["rare"] = 0.58594
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Ano Bazooka",
         ["dar"] = 38,
         ["rare"] = 0.31738
@@ -6142,9 +6262,9 @@ return {
       },
       {
         ["target"] = "Zu",
-        ["item"] = "Justy-23ST",
+        ["item"] = "V101",
         ["dar"] = 80,
-        ["rare"] = 0.68359
+        ["rare"] = 0.06104
       },
       {
         ["target"] = "Pazuzu",
@@ -6224,7 +6344,7 @@ return {
         ["rare"] = 0.31738
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Divine Protection",
         ["dar"] = 38,
         ["rare"] = 0.26855
@@ -6249,9 +6369,9 @@ return {
       },
       {
         ["target"] = "Sand Rappy",
-        ["item"] = "God/Battle",
+        ["item"] = "Last Survivor",
         ["dar"] = 100,
-        ["rare"] = 0.10986
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Del Rappy",
@@ -6318,9 +6438,9 @@ return {
       },
       {
         ["target"] = "Merissa AA",
-        ["item"] = "Flamberge",
+        ["item"] = "Heart of The Sigh of a God",
         ["dar"] = 100,
-        ["rare"] = 50.00000
+        ["rare"] = 4.68750
       },
       {
         ["target"] = "Girtablulu",
@@ -6355,7 +6475,7 @@ return {
         ["rare"] = 1.56250
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Rianov 303SNR-2",
         ["dar"] = 38,
         ["rare"] = 0.31738
@@ -6443,9 +6563,9 @@ return {
       },
       {
         ["target"] = "Merissa A",
-        ["item"] = "Yata Mirror",
+        ["item"] = "Vjaya",
         ["dar"] = 27,
-        ["rare"] = 0.63477
+        ["rare"] = 1.75781
       },
       {
         ["target"] = "Merissa AA",
@@ -6481,15 +6601,15 @@ return {
     ["Purplenum"] = {
       {
         ["target"] = "Boota",
-        ["item"] = "M&A60 Vise",
+        ["item"] = "Divine Protection",
         ["dar"] = 30,
-        ["rare"] = 1.56250
+        ["rare"] = 0.26855
       },
       {
-        ["target"] = "Za Boota",
-        ["item"] = "Divine Protection",
+        ["target"] = "Ze Boota",
+        ["item"] = "M&A60 Vise",
         ["dar"] = 38,
-        ["rare"] = 0.26855
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Ba Boota",
@@ -6574,7 +6694,7 @@ return {
       },
       {
         ["target"] = "Merissa A",
-        ["item"] = "L&K14 Combat",
+        ["item"] = "M&A60 Vise",
         ["dar"] = 27,
         ["rare"] = 1.75781
       },
@@ -6606,7 +6726,7 @@ return {
         ["target"] = "Kondrieu",
         ["item"] = "Heaven Striker",
         ["dar"] = 100,
-        ["rare"] = 9.37500
+        ["rare"] = 12.50000
       }
     },
     ["Pinkal"] = {
@@ -6617,7 +6737,7 @@ return {
         ["rare"] = 0.43945
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Rianov 303SNR-3",
         ["dar"] = 38,
         ["rare"] = 0.31738
@@ -6748,10 +6868,10 @@ return {
         ["rare"] = 0.43945
       },
       {
-        ["target"] = "Za Boota",
-        ["item"] = "Red Coat",
+        ["target"] = "Ze Boota",
+        ["item"] = "Diska of Braveman",
         ["dar"] = 38,
-        ["rare"] = 0.29297
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Ba Boota",
@@ -6767,15 +6887,15 @@ return {
       },
       {
         ["target"] = "Dorphon Eclair",
-        ["item"] = "Crimson Coat",
+        ["item"] = "Heart of Diska of Liberator",
         ["dar"] = 100,
-        ["rare"] = 50.00000
+        ["rare"] = 10.15625
       },
       {
         ["target"] = "Sand Rappy",
-        ["item"] = "God/Battle",
+        ["item"] = "Lieutenant Gear",
         ["dar"] = 100,
-        ["rare"] = 0.10986
+        ["rare"] = 0.15869
       },
       {
         ["target"] = "Del Rappy",
@@ -6830,13 +6950,13 @@ return {
       },
       {
         ["target"] = "Goran Detonator",
-        ["item"] = "Slicer of Fanatic",
+        ["item"] = "Diska of Braveman",
         ["dar"] = 35,
-        ["rare"] = 0.39063
+        ["rare"] = 1.56250
       },
       {
         ["target"] = "Merissa A",
-        ["item"] = "Diska of Braveman",
+        ["item"] = "Diska of Liberator",
         ["dar"] = 27,
         ["rare"] = 1.75781
       },
@@ -6876,10 +6996,10 @@ return {
         ["target"] = "Boota",
         ["item"] = "Invisible Guard",
         ["dar"] = 30,
-        ["rare"] = 0.04272
+        ["rare"] = 0.07935
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Morning Prayer",
         ["dar"] = 38,
         ["rare"] = 0.29297
@@ -6898,15 +7018,15 @@ return {
       },
       {
         ["target"] = "Dorphon Eclair",
-        ["item"] = "Zero Divide",
+        ["item"] = "Blue Odoshi Violet Nimaidou",
         ["dar"] = 100,
         ["rare"] = 50.00000
       },
       {
         ["target"] = "Sand Rappy",
-        ["item"] = "God/Battle",
+        ["item"] = "Cross Scar",
         ["dar"] = 100,
-        ["rare"] = 0.10986
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Del Rappy",
@@ -6949,9 +7069,9 @@ return {
       },
       {
         ["target"] = "Goran",
-        ["item"] = "Twin Chakram",
+        ["item"] = "Zero Divide",
         ["dar"] = 30,
-        ["rare"] = 0.31738
+        ["rare"] = 0.21973
       },
       {
         ["target"] = "Pyro Goran",
@@ -6961,9 +7081,9 @@ return {
       },
       {
         ["target"] = "Goran Detonator",
-        ["item"] = "Lieutenant Mantle",
+        ["item"] = "Heart of Plantain Huge Fan",
         ["dar"] = 35,
-        ["rare"] = 0.39063
+        ["rare"] = 0.04272
       },
       {
         ["target"] = "Merissa A",
@@ -6997,9 +7117,9 @@ return {
       },
       {
         ["target"] = "Kondrieu",
-        ["item"] = "Blue Odoshi Violet Nimaidou",
+        ["item"] = "Lame d'Argent",
         ["dar"] = 100,
-        ["rare"] = 25.00000
+        ["rare"] = 12.50000
       }
     },
     ["Yellowboze"] = {
@@ -7010,7 +7130,7 @@ return {
         ["rare"] = 0.58594
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Divine Protection",
         ["dar"] = 38,
         ["rare"] = 0.26855
@@ -7110,9 +7230,9 @@ return {
       },
       {
         ["target"] = "Girtablulu",
-        ["item"] = "Kamui",
+        ["item"] = "Swordsman Lore",
         ["dar"] = 80,
-        ["rare"] = 0.63477
+        ["rare"] = 0.31738
       },
       {
         ["target"] = "Saint Million",
@@ -7128,9 +7248,9 @@ return {
       },
       {
         ["target"] = "Kondrieu",
-        ["item"] = "Centurion/Ability",
+        ["item"] = "Daylight Scar",
         ["dar"] = 100,
-        ["rare"] = 25.00000
+        ["rare"] = 12.50000
       }
     },
     ["Whitill"] = {
@@ -7141,7 +7261,7 @@ return {
         ["rare"] = 0.31738
       },
       {
-        ["target"] = "Za Boota",
+        ["target"] = "Ze Boota",
         ["item"] = "Morning Prayer",
         ["dar"] = 38,
         ["rare"] = 0.29297
@@ -7241,15 +7361,15 @@ return {
       },
       {
         ["target"] = "Girtablulu",
-        ["item"] = "Rage de Feu",
+        ["item"] = "Rage d'Ame",
         ["dar"] = 80,
         ["rare"] = 0.63477
       },
       {
         ["target"] = "Saint Million",
-        ["item"] = "Crimson Coat",
+        ["item"] = "Heart of Samba Maracas",
         ["dar"] = 100,
-        ["rare"] = 2.53906
+        ["rare"] = 0.78125
       },
       {
         ["target"] = "Shambertin",
@@ -7299,15 +7419,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "Final Impact",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "Final Impact",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.21973
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
@@ -7361,15 +7481,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "Justy-23ST",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "Justy-23ST",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.21973
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
@@ -7423,15 +7543,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "Dragon Slayer",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "Dragon Slayer",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.21973
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
@@ -7485,15 +7605,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "Gae Bolg",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "Gae Bolg",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.21973
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
@@ -7547,15 +7667,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "L&K14 Combat",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "L&K14 Combat",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.21973
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
@@ -7609,15 +7729,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "Storm Wand: Indra",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "Storm Wand: Indra",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.21973
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
@@ -7671,15 +7791,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "Diska of Braveman",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "Diska of Braveman",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.21973
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
@@ -7733,15 +7853,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "Cross Scar",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "Cross Scar",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.21973
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
@@ -7783,15 +7903,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "Blue Barrier",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.08545
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "Durandal",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.26856
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
@@ -7845,15 +7965,15 @@ return {
       },
       {
         ["target"] = "Mine 1",
-        ["item"] = "Mag",
+        ["item"] = "Diska of Braveman",
         ["dar"] = 100,
-        ["rare"] = 0.68357
+        ["rare"] = 0.17090
       },
       {
         ["target"] = "Mine 2",
-        ["item"] = "Diska of Braveman",
+        ["item"] = "Mag",
         ["dar"] = 100,
-        ["rare"] = 0.21973
+        ["rare"] = 0.68357
       },
       {
         ["target"] = "Ruins 1",
