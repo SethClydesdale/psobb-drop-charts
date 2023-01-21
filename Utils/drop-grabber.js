@@ -31,6 +31,8 @@ var section_id = {
   '#FFFFFF' : 'Whitill'
 }
 
+const rgb2hex = (rgb) => `#${rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/).slice(1).map(n => parseInt(n, 10).toString(16).padStart(2, '0')).join('')}`;
+
 // loop vars
 var chart = {},
     table = document.querySelectorAll('table'),
@@ -55,9 +57,10 @@ for (; i < j; i++) {
   }
   
   for (; k < l; k++) {
-    if (section_id[td[k].bgColor]) {
-      if (!chart[episode][section_id[td[k].bgColor]]) {
-        chart[episode][section_id[td[k].bgColor]] = []
+	backGroundColor = rgb2hex(getComputedStyle(td[k]).backgroundColor).toUpperCase();
+    if (section_id[backGroundColor]) {
+      if (!chart[episode][section_id[backGroundColor]]) {
+        chart[episode][section_id[backGroundColor]] = []
       }
 
       b = td[k].querySelector('b');
@@ -76,7 +79,7 @@ for (; i < j; i++) {
       
       // only push if there's data available
       if (abbr || td[k].querySelector('sup')) {
-        chart[episode][section_id[td[k].bgColor]].push({
+        chart[episode][section_id[backGroundColor]].push({
           target : enemy,
           item : b ? b.innerText : '',
           dar : dar && dar[1] ? parseFloat(dar[1]) : 100,
