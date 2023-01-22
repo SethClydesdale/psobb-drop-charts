@@ -7400,6 +7400,36 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Meteor Smash",
 		  ["dar"] = 100,
@@ -7418,6 +7448,30 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Final Impact",
 		  ["dar"] = 100,
@@ -7426,6 +7480,36 @@ return {
 		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Final Impact",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -7442,8 +7526,44 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Final Impact",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Gae Bolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7462,6 +7582,30 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Wals-MK2",
 		  ["dar"] = 100,
@@ -7474,8 +7618,38 @@ return {
 		  ["rare"] = 0.26856
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Justy-23ST",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.15869
 		},
@@ -7492,8 +7666,44 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Justy-23ST",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Justy-23ST",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -7506,6 +7716,36 @@ return {
 		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Justy-23ST",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7524,6 +7764,30 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Wals-MK2",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Last Survivor",
 		  ["dar"] = 100,
@@ -7542,6 +7806,30 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Wals-MK2",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Dragon Slayer",
 		  ["dar"] = 100,
@@ -7554,8 +7842,50 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Dragon Slayer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Wals-MK2",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Dragon Slayer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -7566,8 +7896,38 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Dragon Slayer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Justy-23ST",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7580,8 +7940,44 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Brave Hammer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7604,6 +8000,30 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Brave Hammer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Gae Bolg",
 		  ["dar"] = 100,
@@ -7612,6 +8032,36 @@ return {
 		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Gae Bolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Brave Hammer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -7628,8 +8078,38 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Gae Bolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Alive Aqhu",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7648,8 +8128,38 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Amplifier of Zonde",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7666,14 +8176,80 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "L&K14 Combat",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "L&K14 Combat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -7692,6 +8268,30 @@ return {
 		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "L&K14 Combat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7704,8 +8304,20 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Ice Staff: Dagon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7716,8 +8328,26 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Amplifier of Zonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Cave 2",
 		  ["item"] = "Ice Staff: Dagon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -7728,8 +8358,38 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Storm Wand: Indra",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7740,8 +8400,38 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Storm Wand: Indra",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Storm Wand: Indra",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Rafoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -7752,8 +8442,38 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Yellow",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Storm Wand: Indra",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7772,8 +8492,32 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Diska of Liberator",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7784,8 +8528,32 @@ return {
 		  ["rare"] = 0.26856
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.15869
 		},
@@ -7802,8 +8570,44 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -7814,8 +8618,44 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Yellow",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7834,6 +8674,36 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Last Survivor",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Bloody Art",
 		  ["dar"] = 100,
@@ -7846,8 +8716,38 @@ return {
 		  ["rare"] = 0.26856
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Last Survivor",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.15869
 		},
@@ -7864,6 +8764,36 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Last Survivor",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Cross Scar",
 		  ["dar"] = 100,
@@ -7876,8 +8806,38 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Dragon Slayer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7890,8 +8850,32 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 2",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7902,8 +8886,32 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7914,8 +8922,50 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7926,8 +8976,32 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7946,6 +9020,30 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Diska of Liberator",
 		  ["dar"] = 100,
@@ -7964,14 +9062,86 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Diska of Braveman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -7992,6 +9162,30 @@ return {
 		  ["item"] = "Diska of Braveman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "L&K14 Combat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
 		}
 	  }
 	},
@@ -8004,8 +9198,32 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "VR Temple: Alpha",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "Meteor Smash",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Amplifier of Barta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -8016,8 +9234,20 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "VR Spaceship: Beta",
 		  ["item"] = "Meteor Smash",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "VR Spaceship: Beta",
+		  ["item"] = "Durandal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -8028,8 +9258,38 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Final Impact",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -8040,8 +9300,32 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Final Impact",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -8052,8 +9336,38 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Final Impact",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Gae Bolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -8072,6 +9386,30 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Wals-MK2",
 		  ["dar"] = 100,
@@ -8090,8 +9428,38 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Justy-23ST",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -8102,8 +9470,50 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Justy-23ST",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -8116,6 +9526,30 @@ return {
 		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Justy-23ST",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -8134,6 +9568,30 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Wals-MK2",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Last Survivor",
 		  ["dar"] = 100,
@@ -8152,8 +9610,44 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Wals-MK2",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Dragon Slayer",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -8164,8 +9658,38 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Wals-MK2",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Dragon Slayer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -8176,8 +9700,38 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Dragon Slayer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Justy-23ST",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -8190,8 +9744,38 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "VR Temple: Alpha",
+		  ["item"] = "Amplifier of Zonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Brave Hammer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Mace of Adaman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -8214,14 +9798,74 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Brave Hammer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Gae Bolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Gae Bolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Brave Hammer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -8238,8 +9882,38 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Gae Bolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Alive Aqhu",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -8252,8 +9926,38 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "VR Temple: Alpha",
+		  ["item"] = "Amplifier of Zonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Mace of Adaman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -8276,14 +9980,74 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "L&K14 Combat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "L&K14 Combat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -8302,6 +10066,36 @@ return {
 		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "L&K14 Combat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -8314,8 +10108,26 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "VR Temple: Alpha",
+		  ["item"] = "Amplifier of Zonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "Ice Staff: Dagon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Amplifier of Barta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -8326,8 +10138,20 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "VR Spaceship: Beta",
 		  ["item"] = "Ice Staff: Dagon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "VR Spaceship: Beta",
+		  ["item"] = "Amplifier of Gibarta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -8338,8 +10162,44 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Storm Wand: Indra",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -8350,8 +10210,38 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Storm Wand: Indra",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -8362,8 +10252,32 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Rafoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Storm Wand: Indra",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Gae Bolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -8382,6 +10296,30 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Diska of Liberator",
 		  ["dar"] = 100,
@@ -8400,8 +10338,44 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -8412,8 +10386,38 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.26856
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.26856
 		},
@@ -8424,8 +10428,38 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -8438,14 +10472,50 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "VR Temple: Alpha",
+		  ["item"] = "Amplifier of Zonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "Bloody Art",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Last Survivor",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -8462,14 +10532,74 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Last Survivor",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Last Survivor",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -8488,6 +10618,30 @@ return {
 		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Cross Scar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Dragon Slayer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -8506,8 +10660,32 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -8518,8 +10696,38 @@ return {
 		  ["rare"] = 0.09766
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.09766
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.09766
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.09766
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.09766
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -8530,8 +10738,26 @@ return {
 		  ["rare"] = 0.12207
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.12207
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.12207
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -8542,8 +10768,32 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.14648
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.14648
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.14648
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
 		  ["dar"] = 100,
 		  ["rare"] = 0.14648
 		}
@@ -8562,8 +10812,44 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Diska of Liberator",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -8580,14 +10866,74 @@ return {
 		  ["rare"] = 0.15869
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.15869
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Diska of Braveman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Club of Zumiuran",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -8608,6 +10954,30 @@ return {
 		  ["item"] = "Diska of Braveman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "L&K14 Combat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Durandal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Bravace",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Club of Zumiuran",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
 		}
 	  }
 	},
@@ -8620,8 +10990,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8632,8 +11014,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8644,8 +11038,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8656,14 +11062,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Thirteen",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}
@@ -8676,8 +11100,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8688,8 +11124,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8700,8 +11148,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8712,14 +11172,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Red Coat",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}
@@ -8732,8 +11210,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8744,8 +11234,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8756,8 +11258,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8768,14 +11282,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Thirteen",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}
@@ -8788,8 +11320,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8800,8 +11344,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8812,8 +11368,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8824,14 +11392,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Red Coat",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}
@@ -8844,8 +11430,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8856,8 +11454,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8868,8 +11478,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8880,14 +11502,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Thirteen",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}
@@ -8900,8 +11540,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8912,8 +11564,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8924,8 +11588,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8936,14 +11612,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Red Coat",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}
@@ -8956,8 +11650,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8968,8 +11674,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8980,8 +11698,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8992,14 +11722,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Thirteen",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}
@@ -9012,8 +11760,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -9024,8 +11784,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -9036,8 +11808,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -9048,14 +11832,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Red Coat",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}
@@ -9068,8 +11870,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -9080,8 +11894,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -9092,8 +11918,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -9104,14 +11942,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Thirteen",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Thirteen",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}
@@ -9124,8 +11980,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater East",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater West",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater West",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -9136,8 +12004,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater South",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Crater North",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Crater North",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -9148,8 +12028,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Crater Int.",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 1",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Desert 1",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -9160,14 +12052,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 2",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Desert 3",
 		  ["item"] = "Red Coat",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Desert 3",
+		  ["item"] = "Photon Crystal",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Boss",
 		  ["item"] = "Red Coat",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Boss",
+		  ["item"] = "Photon Crystal",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		}

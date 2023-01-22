@@ -7100,6 +7100,36 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Berdys",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Amplifier of Shifta",
 		  ["dar"] = 100,
@@ -7118,6 +7148,30 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
@@ -7130,8 +7184,38 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7142,8 +7226,44 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Meteor Smash",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7156,8 +7276,44 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Edge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Amplifier of Shifta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7174,6 +7330,30 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
@@ -7186,8 +7366,44 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Blue",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7196,12 +7412,72 @@ return {
 		  ["item"] = "Wals-MK2",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
 		}
 	  },
 	  ["Skyly"] = {
 		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Beam",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7218,6 +7494,36 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Laser",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
@@ -7226,6 +7532,36 @@ return {
 		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Last Survivor",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Visk-235W",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Deband",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7242,8 +7578,56 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Last Survivor",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Visk-235W",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7262,8 +7646,38 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Pillar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Amplifier of Shifta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7274,8 +7688,44 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Striker",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -7286,14 +7736,80 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Battle Verge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Ruins 2",
 		  ["item"] = "Amplifier of Rafoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Battle Verge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7306,8 +7822,38 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "Amplifier of Resta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Edge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7330,14 +7876,80 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7358,12 +7970,60 @@ return {
 		  ["item"] = "H&S25 Justice",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
 		}
 	  },
 	  ["Pinkal"] = {
 		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Fire Scepter: Agni",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7380,8 +8040,44 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Fire Scepter: Agni",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7392,8 +8088,56 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Ice Staff: Dagon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7408,12 +8152,66 @@ return {
 		  ["item"] = "Ice Staff: Dagon",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
 		}
 	  },
 	  ["Redria"] = {
 		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Sawcer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Launcher",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7436,6 +8234,30 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Arms",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
@@ -7448,8 +8270,44 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Crush Bullet",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7460,8 +8318,44 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Crush Bullet",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Yellow",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7474,8 +8368,38 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "Amplifier of Resta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Claymore",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7492,8 +8416,50 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Calibur",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -7504,14 +8470,74 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Ruins 2",
 		  ["item"] = "Recovery Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7530,8 +8556,32 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Fire Scepter: Agni",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7542,8 +8592,32 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Crush Bullet",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7554,8 +8628,38 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Battle Verge",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7566,8 +8670,32 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 2",
 		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Visk-235W",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7576,12 +8704,60 @@ return {
 		  ["item"] = "Kaladbolg",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
 		}
 	  },
 	  ["Whitill"] = {
 		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Gatling",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Barta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7598,8 +8774,44 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Vulcan",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Red Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7610,8 +8822,44 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Diska of Liberator",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Deband",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7624,6 +8872,36 @@ return {
 		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Diska of Liberator",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7638,8 +8916,38 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Berdys",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Anti",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7656,14 +8964,86 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Meteor Smash",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Deband",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7676,6 +9056,36 @@ return {
 		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Meteor Smash",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7694,14 +9104,68 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Edge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Beta",
 		  ["item"] = "Amplifier of Gibarta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "VR Spaceship: Beta",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Jungle North",
 		  ["item"] = "Visk-235W",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7718,8 +9182,44 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7732,6 +9232,30 @@ return {
 		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Wals-MK2",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7750,8 +9274,38 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Beam",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Shifta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7762,8 +9316,44 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Laser",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -7774,14 +9364,68 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Visk-235W",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Seabed: Upper Levels",
 		  ["item"] = "Recovery Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Last Survivor",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Visk-235W",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7800,6 +9444,30 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Pillar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
@@ -7812,14 +9480,98 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Striker",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Vjaya",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Battle Verge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Deband",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7834,12 +9586,66 @@ return {
 		  ["item"] = "Vjaya",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Battle Verge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
 		}
 	  },
 	  ["Purplenum"] = {
 		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Edge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Amplifier of Barta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7862,8 +9668,44 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
@@ -7874,14 +9716,80 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "H&S25 Justice",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7894,8 +9802,38 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "VR Temple: Alpha",
+		  ["item"] = "Amplifier of Resta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "Fire Scepter: Agni",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Berdys",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "DB's Saber",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7906,8 +9844,38 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Shifta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Jungle North",
 		  ["item"] = "Fire Scepter: Agni",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "DB's Saber",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7924,8 +9892,38 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7936,8 +9934,44 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Ice Staff: Dagon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Kaladbolg",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}
@@ -7956,6 +9990,30 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Launcher",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Amplifier of Shifta",
 		  ["dar"] = 100,
@@ -7968,14 +10026,86 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Arms",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Crush Bullet",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -7990,6 +10120,42 @@ return {
 		  ["item"] = "Slicer of Assassin",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Crush Bullet",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
 		}
 	  },
 	  ["Oran"] = {
@@ -8000,8 +10166,38 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Claymore",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Anti",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -8012,14 +10208,86 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Calibur",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Bloody Art",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Deband",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -8034,6 +10302,42 @@ return {
 		  ["item"] = "Bloody Art",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
 		}
 	  },
 	  ["Yellowboze"] = {
@@ -8044,14 +10348,50 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "VR Temple: Alpha",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "DB's Saber",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Crush Bullet",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Amplifier of Shifta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Flowen's Sword",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -8068,14 +10408,68 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Blade Dance",
 		  ["dar"] = 100,
 		  ["rare"] = 0.17090
 		},
@@ -8096,6 +10490,36 @@ return {
 		  ["item"] = "Kaladbolg",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Fire Scepter: Agni",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
 		}
 	  },
 	  ["Whitill"] = {
@@ -8112,14 +10536,74 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Gatling",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Club of Laconium",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Shifta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Jungle North",
 		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Vulcan",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "DB's Saber",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Varista",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Club of Laconium",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -8136,8 +10620,44 @@ return {
 		  ["rare"] = 0.17090
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mace of Adaman",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.17090
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -8148,8 +10668,38 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Diska of Liberator",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Kaladbolg",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Custom Ray ver.OO",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Mace of Adaman",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		}

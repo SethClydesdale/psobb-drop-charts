@@ -63,7 +63,7 @@ for (; i < j; i++) {
         chart[episode][section_id[backGroundColor]] = []
       }
 
-      b = td[k].querySelector('b');
+      b = td[k].querySelectorAll('b');
       abbr = td[k].querySelector('abbr');
       dar = abbr ? abbr.title.match(/Drop Rate:.*?\((.*?)%\)/) : '';
       rare = abbr ? abbr.title.match(/Rare Rate:.*?\((.*?)%\)/) : '';
@@ -79,13 +79,15 @@ for (; i < j; i++) {
       
       // only push if there's data available
       if (abbr || td[k].querySelector('sup')) {
-        chart[episode][section_id[backGroundColor]].push({
-          target : enemy,
-          item : b ? b.innerText : '',
-          dar : dar && dar[1] ? parseFloat(dar[1]) : 100,
-          rare : rare && rare[1] ? parseFloat(rare[1]).toFixed(5) : 0
-        });
-      }
+		b.forEach( item => {
+		  chart[episode][section_id[backGroundColor]].push({
+			target : enemy,
+			item : b ? item.innerText : '',
+			dar : dar && dar[1] ? parseFloat(dar[1]) : 100,
+			rare : rare && rare[1] ? parseFloat(rare[1]).toFixed(5) : 0
+		  });
+		});
+      };
 
     } else if (td[k].colSpan == 11) {
       
