@@ -6980,6 +6980,12 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Shifta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Amplifier of Resta",
 		  ["dar"] = 100,
@@ -6992,8 +6998,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Arms",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7004,8 +7028,50 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Arms",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Recovery Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7016,8 +7082,20 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 2",
 		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Anti",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7026,12 +7104,30 @@ return {
 		  ["item"] = "Crush Bullet",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
 		}
 	  },
 	  ["Greenill"] = {
 		{
 		  ["target"] = "Forest 1",
 		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "Amplifier of Deband",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7054,14 +7150,68 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Laser",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Rabarta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7082,12 +7232,36 @@ return {
 		  ["item"] = "Visk-235W",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Shifta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
 		}
 	  },
 	  ["Skyly"] = {
 		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Shifta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7104,8 +7278,26 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Laser",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -7116,8 +7308,50 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Calibur",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Laser",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Amplifier of Rafoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Deband",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7128,8 +7362,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Visk-235W",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7154,6 +7406,12 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 2",
 		  ["item"] = "Amplifier of Gizonde",
 		  ["dar"] = 100,
@@ -7166,14 +7424,80 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Pillar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Pillar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Resta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7190,8 +7514,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Striker",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7216,8 +7558,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 2",
 		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Amplifier of Deband",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7228,14 +7588,74 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Vulcan",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7256,6 +7676,18 @@ return {
 		  ["item"] = "M&A60 Vise",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Shifta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
 		}
 	  },
 	  ["Pinkal"] = {
@@ -7266,8 +7698,20 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Amplifier of Resta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7284,8 +7728,32 @@ return {
 		  ["rare"] = 0.14648
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.14648
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Scepter",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7296,8 +7764,44 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Scepter",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7308,14 +7812,62 @@ return {
 		  ["rare"] = 0.14648
 		},
 		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.14648
+		},
+		{
 		  ["target"] = "Ruins 2",
 		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Yellow",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Fire Scepter: Agni",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Shifta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7328,8 +7880,26 @@ return {
 		  ["rare"] = 0.07935
 		},
 		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.13428
+		},
+		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Amplifier of Resta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.13428
 		},
@@ -7346,14 +7916,80 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Arms",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Diska",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Arms",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Shifta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7370,8 +8006,38 @@ return {
 		  ["rare"] = 0.07935
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Crush Bullet",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7384,8 +8050,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Amplifier of Zonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7396,8 +8080,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Calibur",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7408,8 +8110,44 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Calibur",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7420,14 +8158,38 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Resta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 2",
 		  ["item"] = "Amplifier of Razonde",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Shifta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7440,8 +8202,20 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "Amplifier of Shifta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Cave 1",
+		  ["item"] = "Amplifier of Deband",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7464,8 +8238,56 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Resta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7476,8 +8298,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 2",
 		  ["item"] = "Amplifier of Yellow",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7502,6 +8342,12 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Shifta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 1",
 		  ["item"] = "Amplifier of Resta",
 		  ["dar"] = 100,
@@ -7514,8 +8360,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Diska",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Vulcan",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7526,8 +8390,50 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Diska",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Vulcan",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Recovery Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7538,14 +8444,38 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Deband",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 2",
 		  ["item"] = "Red Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Anti",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Assist Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7560,8 +8490,20 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Recovery Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -7578,8 +8520,26 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -7590,8 +8550,26 @@ return {
 		  ["rare"] = 0.68357
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Arms",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.68357
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7606,12 +8584,30 @@ return {
 		  ["item"] = "Crush Bullet",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
 		}
 	  },
 	  ["Greenill"] = {
 		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Amplifier of Barta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -7634,6 +8630,12 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
@@ -7646,14 +8648,50 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Laser",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Rabarta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Visk-235W",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Blade Dance",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7672,8 +8710,26 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle North",
 		  ["item"] = "Calibur",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Laser",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7684,8 +8740,32 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Calibur",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Laser",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7696,8 +8776,20 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Visk-235W",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7722,8 +8814,38 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle North",
 		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Pillar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7734,8 +8856,38 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Pillar",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7748,6 +8900,12 @@ return {
 		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Striker",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7766,6 +8924,12 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Recovery Barrier",
 		  ["dar"] = 100,
@@ -7778,8 +8942,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "VR Spaceship: Beta",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Jungle North",
 		  ["item"] = "Vulcan",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
 		  ["dar"] = 100,
 		  ["rare"] = 0.21973
 		},
@@ -7790,8 +8972,32 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Vulcan",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -7802,8 +9008,20 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "M&A60 Vise",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Blade Dance",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -7822,8 +9040,26 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -7840,8 +9076,38 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -7852,8 +9118,214 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Scepter",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Gungnir",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Rafoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Fire Scepter: Agni",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Brionac",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		}
+	  },
+	  ["Redria"] = {
+		{
+		  ["target"] = "VR Temple: Alpha",
+		  ["item"] = "Amplifier of Zonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Assist Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Diska",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Arms",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Diska",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Arms",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7865,12 +9337,30 @@ return {
 		},
 		{
 		  ["target"] = "Seabed: Lower Levels",
-		  ["item"] = "Fire Scepter: Agni",
+		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Crush Bullet",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
 	  },
-	  ["Redria"] = {
+	  ["Oran"] = {
+		{
+		  ["target"] = "VR Temple: Alpha",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
 		{
 		  ["target"] = "VR Temple: Alpha",
 		  ["item"] = "Amplifier of Zonde",
@@ -7890,58 +9380,8 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Jungle North",
-		  ["item"] = "Diska",
-		  ["dar"] = 100,
-		  ["rare"] = 0.21973
-		},
-		{
-		  ["target"] = "Jungle East",
-		  ["item"] = "Mag",
-		  ["dar"] = 100,
-		  ["rare"] = 0.87889
-		},
-		{
-		  ["target"] = "Mountain",
-		  ["item"] = "Mag",
-		  ["dar"] = 100,
-		  ["rare"] = 0.39063
-		},
-		{
-		  ["target"] = "Seaside / CCA",
-		  ["item"] = "Amplifier of Blue",
-		  ["dar"] = 100,
-		  ["rare"] = 0.08545
-		},
-		{
-		  ["target"] = "Seabed: Upper Levels",
-		  ["item"] = "Amplifier of Red",
-		  ["dar"] = 100,
-		  ["rare"] = 0.08545
-		},
-		{
-		  ["target"] = "Seabed: Lower Levels",
-		  ["item"] = "Slicer of Assassin",
-		  ["dar"] = 100,
-		  ["rare"] = 0.31738
-		}
-	  },
-	  ["Oran"] = {
-		{
-		  ["target"] = "VR Temple: Alpha",
-		  ["item"] = "AddSlot",
-		  ["dar"] = 100,
-		  ["rare"] = 0.08545
-		},
-		{
-		  ["target"] = "VR Temple: Beta",
-		  ["item"] = "Assist Barrier",
-		  ["dar"] = 100,
-		  ["rare"] = 0.05493
-		},
-		{
 		  ["target"] = "VR Spaceship: Alpha",
-		  ["item"] = "Assist Barrier",
+		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -7952,8 +9392,50 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Calibur",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -7964,8 +9446,32 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Ripper",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Calibur",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -7976,8 +9482,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Rafoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Blade Dance",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Flowen's Sword",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}
@@ -8002,6 +9526,12 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle North",
 		  ["item"] = "Red Barrier",
 		  ["dar"] = 100,
@@ -8014,6 +9544,18 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
@@ -8022,6 +9564,18 @@ return {
 		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -8046,8 +9600,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "VR Spaceship: Alpha",
 		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -8064,8 +9642,26 @@ return {
 		  ["rare"] = 0.21973
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Vulcan",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.21973
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -8076,8 +9672,26 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Diska",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Vulcan",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -8088,8 +9702,20 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Rafoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Slicer of Assassin",
+		  ["dar"] = 100,
+		  ["rare"] = 0.31738
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "M&A60 Vise",
 		  ["dar"] = 100,
 		  ["rare"] = 0.31738
 		}

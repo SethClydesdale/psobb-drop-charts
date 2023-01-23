@@ -4694,6 +4694,12 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Forest 1",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "Amplifier of Barta",
 		  ["dar"] = 100,
@@ -4712,14 +4718,44 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Glaive",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Rafoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Cannon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Glaive",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -4734,6 +4770,12 @@ return {
 		  ["item"] = "Launcher",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Berdys",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
 		}
 	  },
 	  ["Greenill"] = {
@@ -4744,8 +4786,20 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Barta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Blaster",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Blade",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -4756,8 +4810,26 @@ return {
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Blaster",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Blade",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -4770,6 +4842,18 @@ return {
 		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Beam",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Edge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -4788,6 +4872,24 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Blaster",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
@@ -4800,14 +4902,38 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Breaker",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Blaster",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Amplifier of Rafoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Claymore",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Beam",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -4838,6 +4964,18 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Pole",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
@@ -4846,6 +4984,24 @@ return {
 		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Glaive",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Pole",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -4864,6 +5020,12 @@ return {
 		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Berdys",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Pillar",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -4894,14 +5056,50 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Blade",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Repeater",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Blade",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Rabarta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -4916,6 +5114,12 @@ return {
 		  ["item"] = "Gatling",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Edge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
 		}
 	  },
 	  ["Pinkal"] = {
@@ -4928,6 +5132,12 @@ return {
 		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "Amplifier of Foie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -4950,8 +5160,26 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Glaive",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -4962,8 +5190,32 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Staff",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Glaive",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Amplifier of Rafoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -4974,8 +5226,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Yellow",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Baton",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Berdys",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -4994,8 +5264,26 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Cannon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -5006,8 +5294,26 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Cutter",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Cannon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.13428
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Red",
 		  ["dar"] = 100,
 		  ["rare"] = 0.13428
 		},
@@ -5020,6 +5326,18 @@ return {
 		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Sawcer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Launcher",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -5044,8 +5362,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Cave 2",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Cave 3",
 		  ["item"] = "Blade",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Breaker",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -5062,8 +5398,26 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Blade",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Breaker",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Ruins 1",
 		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Ruins 1",
+		  ["item"] = "Amplifier of Rafoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -5074,13 +5428,37 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Ruins 2",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Edge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Claymore",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Amplifier of Blue",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
 	  },
 	  ["Yellowboze"] = {
+		{
+		  ["target"] = "Forest 2",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
 		{
 		  ["target"] = "Forest 2",
 		  ["item"] = "AddSlot",
@@ -5102,6 +5480,12 @@ return {
 		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "AddSlot",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -5150,14 +5534,50 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Repeater",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Cave 3",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Mine 1",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Mine 1",
+		  ["item"] = "Amplifier of Gibarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mine 2",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Cutter",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Repeater",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mine 2",
+		  ["item"] = "Amplifier of Rabarta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -5170,6 +5590,12 @@ return {
 		{
 		  ["target"] = "Ruins 3",
 		  ["item"] = "Sawcer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Ruins 3",
+		  ["item"] = "Gatling",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -5208,8 +5634,26 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Glaive",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -5220,8 +5664,26 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Cannon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Glaive",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -5236,12 +5698,24 @@ return {
 		  ["item"] = "Launcher",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Berdys",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
 		}
 	  },
 	  ["Greenill"] = {
 		{
 		  ["target"] = "VR Temple: Beta",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Temple: Beta",
+		  ["item"] = "Amplifier of Barta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -5258,40 +5732,8 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Jungle East",
-		  ["item"] = "Mag",
-		  ["dar"] = 100,
-		  ["rare"] = 0.87889
-		},
-		{
-		  ["target"] = "Mountain",
-		  ["item"] = "Mag",
-		  ["dar"] = 100,
-		  ["rare"] = 0.39063
-		},
-		{
-		  ["target"] = "Seaside / CCA",
-		  ["item"] = "Amplifier of Rabarta",
-		  ["dar"] = 100,
-		  ["rare"] = 0.08545
-		},
-		{
-		  ["target"] = "Seabed: Lower Levels",
-		  ["item"] = "Beam",
-		  ["dar"] = 100,
-		  ["rare"] = 0.07935
-		}
-	  },
-	  ["Skyly"] = {
-		{
-		  ["target"] = "VR Spaceship: Alpha",
-		  ["item"] = "AddSlot",
-		  ["dar"] = 100,
-		  ["rare"] = 0.08545
-		},
-		{
 		  ["target"] = "Jungle North",
-		  ["item"] = "Breaker",
+		  ["item"] = "Blade",
 		  ["dar"] = 100,
 		  ["rare"] = 0.05493
 		},
@@ -5308,14 +5750,130 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Blaster",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Blade",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Beam",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Edge",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		}
+	  },
+	  ["Skyly"] = {
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "VR Spaceship: Alpha",
+		  ["item"] = "Amplifier of Foie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Breaker",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Blaster",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Breaker",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Blaster",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seabed: Upper Levels",
 		  ["item"] = "Amplifier of Rafoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Claymore",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Beam",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -5346,14 +5904,62 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Pole",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Glaive",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Pole",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -5366,6 +5972,12 @@ return {
 		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Berdys",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Pillar",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -5396,8 +6008,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Blade",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -5408,14 +6044,44 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Repeater",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Blade",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Rabarta",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Gatling",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Edge",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -5452,8 +6118,38 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Glaive",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -5464,8 +6160,44 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Staff",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Glaive",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -5476,8 +6208,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "Amplifier of Red",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Baton",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Berdys",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -5502,8 +6252,26 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Cannon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -5514,8 +6282,32 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Cutter",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Cannon",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -5526,8 +6318,26 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Seabed: Upper Levels",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Sawcer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Launcher",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
@@ -5552,14 +6362,68 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Breaker",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Amplifier of Gizonde",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
 		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
 		  ["target"] = "Mountain",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Blade",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Breaker",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Amplifier of Razonde",
 		  ["dar"] = 100,
 		  ["rare"] = 0.39063
 		},
@@ -5574,6 +6438,12 @@ return {
 		  ["item"] = "Edge",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Claymore",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
 		}
 	  },
 	  ["Yellowboze"] = {
@@ -5584,8 +6454,20 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Yellow Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -5596,8 +6478,26 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Amplifier of Blue",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -5610,6 +6510,12 @@ return {
 		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Amplifier of Yellow",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		}
@@ -5640,8 +6546,32 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Repeater",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
+		  ["target"] = "Jungle North",
+		  ["item"] = "Red Barrier",
+		  ["dar"] = 100,
+		  ["rare"] = 0.05493
+		},
+		{
 		  ["target"] = "Jungle East",
 		  ["item"] = "Mag",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "AddSlot",
+		  ["dar"] = 100,
+		  ["rare"] = 0.87889
+		},
+		{
+		  ["target"] = "Jungle East",
+		  ["item"] = "Amplifier of Gifoie",
 		  ["dar"] = 100,
 		  ["rare"] = 0.87889
 		},
@@ -5652,8 +6582,26 @@ return {
 		  ["rare"] = 0.39063
 		},
 		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Cutter",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
+		  ["target"] = "Mountain",
+		  ["item"] = "Repeater",
+		  ["dar"] = 100,
+		  ["rare"] = 0.39063
+		},
+		{
 		  ["target"] = "Seaside / CCA",
 		  ["item"] = "Amplifier of Rabarta",
+		  ["dar"] = 100,
+		  ["rare"] = 0.08545
+		},
+		{
+		  ["target"] = "Seaside / CCA",
+		  ["item"] = "Blue Barrier",
 		  ["dar"] = 100,
 		  ["rare"] = 0.08545
 		},
@@ -5666,6 +6614,12 @@ return {
 		{
 		  ["target"] = "Seabed: Lower Levels",
 		  ["item"] = "Sawcer",
+		  ["dar"] = 100,
+		  ["rare"] = 0.07935
+		},
+		{
+		  ["target"] = "Seabed: Lower Levels",
+		  ["item"] = "Gatling",
 		  ["dar"] = 100,
 		  ["rare"] = 0.07935
 		}
