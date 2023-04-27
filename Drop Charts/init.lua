@@ -273,10 +273,10 @@ end
 
 -- extract party dar, rare boosts, section id, and grab episode and difficulty
 local function parse_side_message(text)
-    local data = { }
+  local data = { }
 	
 	-- logic in identifying dar and rare boost
-    local dropIndex = string.find(text, "Drop")
+  local dropIndex = string.find(text, "Drop")
 	local rareIndex = string.find(text, "Rare")
 	local idIndex = string.find(text, "ID")
 	
@@ -288,7 +288,7 @@ local function parse_side_message(text)
 	local _difficulty = pso.read_u32(_Difficulty)
 	local _episode = pso.read_u32(_Episode)
 	
-    data.dar = tonumber(string.match(dropStr, "%d+"))
+  data.dar = tonumber(string.match(dropStr, "%d+"))
 	data.rare = tonumber(string.match(rareStr, "%d+"))
 	data.id = string.match(idStr,"%a+")
 	data.difficulty = _difficulty + 1
@@ -308,12 +308,14 @@ local getToolTip = function(item, diff, sect)
 	if mode.status == "auto" then
 		custom = {
 			dar   = tonumber(party.dar),
-			rare  = tonumber(party.rare)
+			rare  = tonumber(party.rare),
+      chances = tonumber(input.chances)
 		}
 	else
 		custom = {
 			dar   = tonumber(input.dar),
-			rare  = tonumber(input.rare)
+			rare  = tonumber(input.rare),
+      chances = tonumber(input.chances)
 		}
 	end
 	
@@ -415,6 +417,30 @@ local getToolTip = function(item, diff, sect)
 		end
 		
 		imgui.NewLine()
+    -- chance calculator
+    local chancePercentage = percent
+    local _computedDenom = string.format("%.2f",computedDenom)
+    local noHit = (_computedDenom - 1) / _computedDenom
+    local noChancePercentage = noHit
+
+    if item.dar ~= computedDar or item.rare ~= computedRare or custom.chances > 1 then
+      local counter = 1
+
+      while (counter < custom.chances)
+      do
+        noChancePercentage = noChancePercentage * noHit
+        counter = counter + 1
+      end
+      -- convert it to chance
+      chancePercentage = string.format("%.2f",((1 - noChancePercentage) * 100))
+    end
+    
+    TextC(true, 0xFFFFFFFF, "Chances: ")
+    TextC(false, 0xFF00FF00, custom.chances)
+    TextC(false, 0xFFFFFFFF, ", Probability: ")
+    TextC(false, 0xFF00FF00, chancePercentage .. "%%")
+
+		imgui.NewLine()
 		
 		-- If drop rate is different, show original drop rate string
 		if item.dar ~= computedDar or item.rare ~= computedRare then
@@ -472,6 +498,7 @@ end
 local getPartyConfig = function()
   local darSuccess
   local rareSuccess
+  local chancesSuccess
   
   -- if Auto Mode, grab party dar
   if mode.status == "auto" then
@@ -520,6 +547,16 @@ local getPartyConfig = function()
   if input.rare == "" or input.rare == nil or tonumber(input.rare) == nil then
 	input.rare = "100"
   end
+
+  -- if uninitialized, use defaults
+  if input.chances == "" or input.chances == nil or tonumber(input.chances) == nil then
+	input.chances = "1"
+  end
+
+  imgui.PushItemWidth(48)
+  chancesSuccess, input.chances = imgui.InputText("Chance(s)",string.format("%s",input.chances), 255)
+  imgui.PopItemWidth()
+  imgui.SameLine(0, 10)
   
   -- create Toggle button with instructions
   local autoString = " " .. mode[mode.status].text
