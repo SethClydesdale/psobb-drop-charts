@@ -128,7 +128,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "S-Parts ver2.01",
 		  ["dar"] = 28,
 		  ["rare"] = 0.03357
@@ -355,7 +355,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "S-Parts ver2.01",
 		  ["dar"] = 28,
 		  ["rare"] = 0.03357
@@ -582,7 +582,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "S-Parts ver2.01",
 		  ["dar"] = 28,
 		  ["rare"] = 0.03357
@@ -809,7 +809,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Brionac",
 		  ["dar"] = 28,
 		  ["rare"] = 0.02441
@@ -1036,7 +1036,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "M&A60 Vise",
 		  ["dar"] = 28,
 		  ["rare"] = 0.02136
@@ -1263,7 +1263,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Fire Scepter: Agni",
 		  ["dar"] = 28,
 		  ["rare"] = 0.02441
@@ -1490,7 +1490,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "S-Parts ver2.01",
 		  ["dar"] = 28,
 		  ["rare"] = 0.03357
@@ -1717,7 +1717,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "S-Parts ver2.01",
 		  ["dar"] = 28,
 		  ["rare"] = 0.03357
@@ -1944,7 +1944,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "DB's Saber",
 		  ["dar"] = 28,
 		  ["rare"] = 0.02441
@@ -2171,7 +2171,7 @@ return {
 		  ["rare"] = 0.05493
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "S-Parts ver2.01",
 		  ["dar"] = 28,
 		  ["rare"] = 0.03357

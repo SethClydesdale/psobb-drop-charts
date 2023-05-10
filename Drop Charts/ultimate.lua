@@ -158,7 +158,7 @@ return {
 		  ["rare"] = 0.19531
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Final Impact",
 		  ["dar"] = 30,
 		  ["rare"] = 1.56250
@@ -439,7 +439,7 @@ return {
 		  ["rare"] = 0.19531
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Yasminkov 3000R",
 		  ["dar"] = 30,
 		  ["rare"] = 0.31738
@@ -720,7 +720,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Justy-23ST",
 		  ["dar"] = 30,
 		  ["rare"] = 1.56250
@@ -1001,7 +1001,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Vjaya",
 		  ["dar"] = 30,
 		  ["rare"] = 1.56250
@@ -1282,7 +1282,7 @@ return {
 		  ["rare"] = 0.19531
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Flowen's Sword (3073)",
 		  ["dar"] = 30,
 		  ["rare"] = 0.00992
@@ -1563,7 +1563,7 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Heart of Izmaela",
 		  ["dar"] = 30,
 		  ["rare"] = 0.03662
@@ -1844,7 +1844,7 @@ return {
 		  ["rare"] = 0.19531
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Heart of Sorcerer's Cane",
 		  ["dar"] = 30,
 		  ["rare"] = 0.03662
@@ -2125,7 +2125,7 @@ return {
 		  ["rare"] = 0.00992
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "S-Parts ver2.01",
 		  ["dar"] = 30,
 		  ["rare"] = 0.03052
@@ -2406,7 +2406,7 @@ return {
 		  ["rare"] = 0.19531
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Gae Bolg",
 		  ["dar"] = 30,
 		  ["rare"] = 1.56250
@@ -2687,7 +2687,7 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "L&K14 Combat",
 		  ["dar"] = 30,
 		  ["rare"] = 1.56250
@@ -2949,7 +2949,7 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Heavenly/Power",
 		  ["dar"] = 30,
 		  ["rare"] = 0.31738
@@ -3275,7 +3275,7 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Cross Scar",
 		  ["dar"] = 30,
 		  ["rare"] = 1.56250
@@ -3601,7 +3601,7 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Agito (1975)",
 		  ["dar"] = 30,
 		  ["rare"] = 0.00992
@@ -3927,7 +3927,7 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Guilty Light",
 		  ["dar"] = 30,
 		  ["rare"] = 1.56250
@@ -4253,7 +4253,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Anti Android Rifle",
 		  ["dar"] = 30,
 		  ["rare"] = 0.31738
@@ -4579,7 +4579,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Liberta Kit",
 		  ["dar"] = 30,
 		  ["rare"] = 0.07935
@@ -4905,7 +4905,7 @@ return {
 		  ["rare"] = 0.08545
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Electro Frame",
 		  ["dar"] = 30,
 		  ["rare"] = 0.31738
@@ -5231,7 +5231,7 @@ return {
 		  ["rare"] = 0.31738
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Sting Tip",
 		  ["dar"] = 30,
 		  ["rare"] = 1.56250
@@ -5557,7 +5557,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Gae Bolg",
 		  ["dar"] = 30,
 		  ["rare"] = 1.56250
@@ -5883,7 +5883,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Electro Frame",
 		  ["dar"] = 30,
 		  ["rare"] = 0.31738

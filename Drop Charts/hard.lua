@@ -152,7 +152,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Secret Gear",
 		  ["dar"] = 28,
 		  ["rare"] = 0.78125
@@ -421,7 +421,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Club of Laconium",
 		  ["dar"] = 28,
 		  ["rare"] = 0.78125
@@ -690,7 +690,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Club of Laconium",
 		  ["dar"] = 28,
 		  ["rare"] = 0.78125
@@ -959,7 +959,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Secret Gear",
 		  ["dar"] = 28,
 		  ["rare"] = 0.78125
@@ -1228,7 +1228,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Varista",
 		  ["dar"] = 28,
 		  ["rare"] = 0.78125
@@ -1497,7 +1497,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Fire Scepter: Agni",
 		  ["dar"] = 28,
 		  ["rare"] = 0.78125
@@ -1766,7 +1766,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Secret Gear",
 		  ["dar"] = 28,
 		  ["rare"] = 1.56250
@@ -2035,7 +2035,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Secret Gear",
 		  ["dar"] = 28,
 		  ["rare"] = 0.78125
@@ -2304,7 +2304,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Secret Gear",
 		  ["dar"] = 28,
 		  ["rare"] = 0.78125
@@ -2573,7 +2573,7 @@ return {
 		  ["rare"] = 0.78125
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Secret Gear",
 		  ["dar"] = 28,
 		  ["rare"] = 0.78125
@@ -2823,7 +2823,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "DB's Saber",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125
@@ -3131,7 +3131,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Varista",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125
@@ -3439,7 +3439,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "DB's Saber",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125
@@ -3747,7 +3747,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "DB's Saber",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125
@@ -4055,7 +4055,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Varista",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125
@@ -4363,7 +4363,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Club of Laconium",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125
@@ -4671,7 +4671,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Varista",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125
@@ -4979,7 +4979,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "DB's Saber",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125
@@ -5287,7 +5287,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Club of Laconium",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125
@@ -5595,7 +5595,7 @@ return {
 		  ["rare"] = 1.56250
 		},
 		{
-		  ["target"] = "Gilchic/\nGilchich",
+		  ["target"] = "Gillchic/\nGillchich",
 		  ["item"] = "Varista",
 		  ["dar"] = 30,
 		  ["rare"] = 0.78125

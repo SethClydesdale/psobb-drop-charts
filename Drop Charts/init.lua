@@ -3,6 +3,12 @@
 
 -- imports
 local core_mainmenu = require("core_mainmenu")
+local util = require("Drop Charts.util")
+local copy = util.copy
+local orderedPairs = util.orderedPairs
+local splitByDelimiter = util.splitByDelimiter
+local quests = require("Drop Charts.quests")
+local quest_categories = require("Drop Charts.categories")
 local drop_charts = {
   ["Normal"] = require("Drop Charts.normal"),
   ["Hard"] = require("Drop Charts.hard"),
@@ -20,6 +26,7 @@ end
 local _SideMessage = pso.base_address + 0x006AECC8
 local _Difficulty = 0x00A9CD68
 local _Episode = 0x00A9B1C8
+local _Quest = 0xA95AA8
 
 -- variables
 local party = { }
@@ -50,9 +57,9 @@ local mode = {
 
 -- episode list
 local episodes = {
-    [0] = "EPISODE 1",
-    [1] = "EPISODE 2",
-    [2] = "EPISODE 4"
+  [0] = "EPISODE 1",
+  [1] = "EPISODE 2",
+  [2] = "EPISODE 4"
 }
 
 -- difficulty list
@@ -106,13 +113,52 @@ local episode = {
   "EPISODE 2",
   "EPISODE 2 Boxes",
   "EPISODE 4",
-  "EPISODE 4 Boxes"
+  "EPISODE 4 Boxes",
+  "QUEST"
+}
+
+-- quest category dropdown values
+local category_values = {
+  ["EPISODE 1"] = {
+    ["Government"] = 1,
+    ["Side Story"] = 2,
+    ["Extermination"] = 3,
+    ["Maximum Attack"] = 4,
+    ["Retrieval"] = 5,
+    ["VR"] = 6,
+    ["Solo Only"] = 7,
+    ["Event"] = 8,
+    ["Halloween"] = 9
+  },
+  ["EPISODE 2"] = {
+    ["Government"] = 1,
+    ["Side Story"] = 2,
+    ["Extermination"] = 3,
+    ["Maximum Attack"] = 4,
+    ["Retrieval"] = 5,
+    ["Tower"] = 6,
+    ["VR"] = 7,
+    ["Solo Only"] = 8,
+    ["Event"] = 9,
+    ["Halloween"] = 10,
+  },
+  ["EPISODE 4"] = {
+    ["Government"] = 1,
+    ["Side Story"] = 2,
+    ["Extermination"] = 3,
+    ["Maximum Attack"] = 4,
+    ["Retrieval"] = 5,
+    ["VR"] = 6,
+    ["Event"] = 7,
+    ["Halloween"] = 8
+  }
 }
 
 -- column headers for the drop charts
 local cols = {
   "Target",
-  "Item"
+  "Item",
+  "Count"
 }
 
 -- Search Feature Info
@@ -151,13 +197,19 @@ end
 -- End Soly
 
 -- create an ASCII separator
-local separator = "+" .. string.rep("-", 86) .. "+" 
-local function Separator(noNewLine)
-  if noNewLine == nil then
+local separator = "+" .. string.rep("-", 86) .. "+"
+local long_separator = "+" .. string.rep("-", 129) .. "+"
+local function Separator(noNewLine, isQuest)
+  if noNewLine == nil or noNewLine == false then
     imgui.NewLine()
   end
-  
-  imgui.TextColored(0.6, 0.6, 0.6, 1, separator)
+
+  if isQuest == true then
+    imgui.TextColored(0.6, 0.6, 0.6, 1, long_separator)
+  else
+    imgui.TextColored(0.6, 0.6, 0.6, 1, separator)
+  end
+
 end
 
 -- create an ASCII column
@@ -271,6 +323,21 @@ local function get_side_text()
 	return ""
 end
 
+-- gets quest number then converts to string
+local function get_quest_name()
+  local questPtr = pso.read_u32(_Quest)
+  if questPtr == 0 then
+      return 0
+  end
+
+  local questData = pso.read_u32(questPtr + 0x19C)
+  if questData == 0 then
+    return 0
+  end
+
+  return pso.read_wstr(questData + 0x18, 0xFF)
+end
+
 -- extract party dar, rare boosts, section id, and grab episode and difficulty
 local function parse_side_message(text)
   local data = { }
@@ -279,10 +346,10 @@ local function parse_side_message(text)
   local dropIndex = string.find(text, "Drop")
 	local rareIndex = string.find(text, "Rare")
 	local idIndex = string.find(text, "ID")
-	
-	local dropStr = string.sub(text,dropIndex, rareIndex-1)
-	local rareStr = string.sub(text,rareIndex, -1)
-	local idStr = string.sub(text, idIndex+4, dropIndex-1)
+
+	local dropStr = string.sub(text, dropIndex, rareIndex-1)
+	local rareStr = string.sub(text, rareIndex, -1)
+	local idStr = string.sub(text, idIndex+2, dropIndex-1)
 
 	-- other data
 	local _difficulty = pso.read_u32(_Difficulty)
@@ -293,13 +360,13 @@ local function parse_side_message(text)
 	data.id = string.match(idStr,"%a+")
 	data.difficulty = _difficulty + 1
 	data.episode = episodes[_episode]
+  data.quest = get_quest_name()
 	
 	return data
 end
 
 -- show tooltip with computed values
-local getToolTip = function(item, diff, sect)
-
+local getToolTip = function(item, diff, sect, mob_count)
 	diff = diff or selectedDifficulty
 	sect = sect or selectedSection
 
@@ -350,8 +417,8 @@ local getToolTip = function(item, diff, sect)
 	local computedDenom = 100 / computedPercent
 	
 	-- formulate drop strings
-	local drop = "Drop: 1/"..string.format("%.2f",denom)..string.format(" (%.2f%s)",percent,"%%%%")
-	local adjustedDrop = "Drop: 1/"..string.format("%.2f",computedDenom)..string.format(" (%.2f%s)",computedPercent,"%%%%")
+	local drop = "Drop: 1/"..string.format("%.2f",denom)..string.format(" (%.2f%s)",percent,"%%")
+	local adjustedDrop = "Drop: 1/"..string.format("%.2f",computedDenom)..string.format(" (%.2f%s)",computedPercent,"%%")
 	
 	-- generate tooltip
 	imgui.BeginTooltip()
@@ -362,7 +429,7 @@ local getToolTip = function(item, diff, sect)
 		if search.scope == "all" then
 			imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, difficulty[diff])
 			imgui.SameLine(0, 8)
-            imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, section[sect])
+      imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, section[sect])
 			imgui.NewLine()
 			imgui.NewLine()
 		end
@@ -377,13 +444,13 @@ local getToolTip = function(item, diff, sect)
 		if computedDar == 100 then
 			color = 0xFFFFFF00
 		end
-		TextC(false, color, string.format("%.0f%s",computedDar,"%%%%"))
+		TextC(false, color, string.format("%.0f%s",computedDar,"%%"))
 		
 		-- display color-coded DAR delta
 		if darDelta > 0 and custom.dar ~= 100 then
-			TextC(false, 0xFF00FF00, " +"..string.format("%.0f%s",darDelta, "%%%%"))
+			TextC(false, 0xFF00FF00, " +"..string.format("%.0f%s",darDelta, "%%"))
 		elseif darDelta < 0 and custom.dar ~= 100 then
-			TextC(false, 0xFFFF0000, " "..string.format("%.0f%s",darDelta, "%%%%"))
+			TextC(false, 0xFFFF0000, " "..string.format("%.0f%s",darDelta, "%%"))
 		end
 		
 		imgui.NewLine()
@@ -399,9 +466,9 @@ local getToolTip = function(item, diff, sect)
 			color = 0xFFFFFF00
 		end
 		-- for rare enemies, etc, no decimals
-		local rareStr = string.format("%.5f%s",computedRare,"%%%%")
+		local rareStr = string.format("%.5f%s",computedRare,"%%")
 		if computedRare > 19 then
-			rareStr = string.format("%.1f%s",computedRare,"%%%%")
+			rareStr = string.format("%.1f%s",computedRare,"%%")
 		end
 		TextC(false, color, rareStr)
 		
@@ -423,6 +490,14 @@ local getToolTip = function(item, diff, sect)
     local noHit = (_computedDenom - 1) / _computedDenom
     local noChancePercentage = noHit
 
+    -- check if row is a quest
+    if mob_count and custom.chances >= 1 then
+      TextC(true, 0xFFFFFFFF, "Probability from (")
+      TextC(false, 0xFF00FF00, custom.chances)
+      TextC(false, 0xFFFFFFFF, ") Quest runs")
+      custom.chances = mob_count * custom.chances
+    end
+
     if item.dar ~= computedDar or item.rare ~= computedRare or custom.chances > 1 then
       local counter = 1
 
@@ -434,7 +509,7 @@ local getToolTip = function(item, diff, sect)
       -- convert it to chance
       chancePercentage = string.format("%.2f",((1 - noChancePercentage) * 100))
     end
-    
+
     TextC(true, 0xFFFFFFFF, "Chances: ")
     TextC(false, 0xFF00FF00, custom.chances)
     TextC(false, 0xFFFFFFFF, ", Probability: ")
@@ -457,10 +532,101 @@ local setMode = function(status)
 	mode.changed = true
 end
 
+local compareStrings = function(s1, s2)
+  -- first parse "#" out of any strings
+  s1 = string.gsub(s1, "#", "")
+  s1 = string.upper(s1)
+  s2 = string.upper(s2)
+
+  if s1 == s2 then
+    return true
+  else
+    return false
+  end
+end
+
+local updateQuestDropdowns = function(qt, quests, category_values)
+  local _quests = quests[qt["episodes"][qt["selectedEpisode"]]]
+  
+  if party.episode ~= nil and party.quest ~= nil then
+    for k,v in pairs(_quests) do
+      for _k,_v in pairs(v) do
+        if compareStrings(party.quest, _v.Name) == true then
+          qt.selectedCategory = category_values[party.episode][_v.Category]
+
+          for i = 1, #qt.quest_names, 1 do
+            if compareStrings(party.quest, qt["quest_names"][i]) == true then
+              qt.selectedQuest = i
+            end
+          end
+        end
+      end
+    end
+  end
+end
+
+-- Quest Filter
+local getQuestInputs = function (qt, quest_categories, quests)
+  if mode.status == "auto" then
+    if party.episode == "EPISODE 1" then
+      qt.selectedEpisode = 1
+    elseif party.episode == "EPISODE 2" then
+      qt.selectedEpisode = 2
+    else
+      qt.selectedEpisode = 3
+    end
+
+    updateQuestDropdowns(qt, quests, category_values)
+  end
+
+  TextC(true, 0xFFFFFFFF, "Quest Filter")
+  imgui.SameLine(0, 0)
+
+  -- episode dropdown
+  imgui.NewLine()
+  imgui.PushItemWidth(250)
+  qt.episodeChanged, qt.selectedEpisode = imgui.Combo("Episodes", qt.selectedEpisode, qt.episodes, table.getn(qt.episodes))
+  imgui.PopItemWidth()
+
+  -- if changed, enter Manual Mode
+  if qt.episodeChanged then
+	  setMode("manual")
+  end
+
+  -- category dropdown
+  imgui.PushItemWidth(250)
+  qt.categoryChanged, qt.selectedCategory = imgui.Combo("Categories", qt.selectedCategory, quest_categories[qt["episodes"][qt.selectedEpisode]], table.getn(quest_categories[qt["episodes"][qt.selectedEpisode]]))
+  imgui.PopItemWidth()
+
+  -- if changed, enter Manual Mode
+  if qt.categoryChanged then
+	  setMode("manual")
+  end
+ 
+  -- get quests and store in a table for quest dropdown
+  qt.quests = quests[qt["episodes"][qt["selectedEpisode"]]][quest_categories[qt["episodes"][qt["selectedEpisode"]]][qt["selectedCategory"]]]
+  qt.quest_names = {}
+  for k, v in orderedPairs(qt.quests) do
+    table.insert(qt.quest_names, qt["quests"][tostring(k)]["Name"])
+  end
+
+  -- quests dropdown
+  imgui.PushItemWidth(320)
+  qt.questChanged, qt.selectedQuest = imgui.Combo("Quests", qt.selectedQuest, qt.quest_names, table.getn(qt.quest_names))
+  imgui.PopItemWidth()
+
+  -- if changed, enter Manual Mode
+  if qt.questChanged then
+	  setMode("manual")
+  end
+
+  imgui.NewLine()
+end
+
 -- Search Feature
 local getSearchInput = function()
   imgui.NewLine()
-  
+
   TextC(true, 0xFFFFFFFF, "Search for ")
   imgui.SameLine(0, 0)
   
@@ -472,23 +638,23 @@ local getSearchInput = function()
   imgui.SameLine(0,0)
   
   if imgui.Button("Selection") then
-	search.filterString = search.inputString
-	search.scope = "selection"
+    search.filterString = search.inputString
+    search.scope = "selection"
   end
   
   TextC(false, 0xFFFFFFFF, " or ")
   imgui.SameLine(0,0)
   
   if imgui.Button("All") then
-	search.filterString = search.inputString
-	search.scope = "all"
+    search.filterString = search.inputString
+    search.scope = "all"
   end
   
-  imgui.SameLine(0,100)
+  imgui.SameLine(0,25)
   
   if imgui.Button("Clear Search") then
-	search.filterString = ""
-	search.inputString = ""
+    search.filterString = ""
+    search.inputString = ""
   end
   
   imgui.NewLine()
@@ -502,7 +668,7 @@ local getPartyConfig = function()
   
   -- if Auto Mode, grab party dar
   if mode.status == "auto" then
-	input.dar = party.dar
+	  input.dar = party.dar
   end
   
   -- if uninitialized, use defaults
@@ -517,16 +683,16 @@ local getPartyConfig = function()
   
   -- if changed, enter Manual Mode
   if darSuccess then
-	setMode("manual")
+	  setMode("manual")
   end
   
   if input.dar == "" or input.dar == nil or tonumber(input.dar) == nil then
-	input.dar = "100"
+	  input.dar = "100"
   end
   
   -- if Auto Mode, grab party rare
   if mode.status == "auto" then
-	input.rare = party.rare
+	  input.rare = party.rare
   end
   
   -- if uninitialized, use defaults
@@ -541,16 +707,16 @@ local getPartyConfig = function()
   
   -- if changed, enter Manual Mode
   if rareSuccess then
-	setMode("manual")
+	  setMode("manual")
   end
   
   if input.rare == "" or input.rare == nil or tonumber(input.rare) == nil then
-	input.rare = "100"
+	  input.rare = "100"
   end
 
   -- if uninitialized, use defaults
   if input.chances == "" or input.chances == nil or tonumber(input.chances) == nil then
-	input.chances = "1"
+	  input.chances = "1"
   end
 
   imgui.PushItemWidth(48)
@@ -561,22 +727,22 @@ local getPartyConfig = function()
   -- create Toggle button with instructions
   local autoString = " " .. mode[mode.status].text
   if mode.status == "auto" and party.dar == nil then
-	autoString = autoString .. " > Type /partyinfo to refresh..."
+	  autoString = autoString .. " > Type /partyinfo to refresh..."
   end
   if imgui.Button("Toggle") then
-	if mode.status == "auto" then
-		setMode("manual")
-	else
-		setMode("auto")
-	end
+    if mode.status == "auto" then
+      setMode("manual")
+    else
+      setMode("auto")
+    end
   end
   
   -- display current Mode, with tooltip
   TextC(false,mode[mode.status].color, autoString)
   if imgui.IsItemHovered() then
-	imgui.BeginTooltip()
+	  imgui.BeginTooltip()
 		TextC(false,0xFFFFFFFF, mode[mode.status].tooltip)
-	imgui.EndTooltip()
+	  imgui.EndTooltip()
   end
 end
 
@@ -586,8 +752,25 @@ local selectedDifficulty = 1
 local sectionChanged = true
 local selectedSection = 1
 local padding = 42
-local drawDropCharts = function()
 
+-- quest table
+local qt = {
+  ["episodeChanged"] = true,
+  ["selectedEpisode"] = 1,
+  ["categoryChanged"] = true,
+  ["selectedCategory"] = 1,
+  ["questChanged"] = true,
+  ["selectedQuest"] = 1 ,
+  ["quests"] = {},
+  ["quest_names"] = {},
+  ["episodes"] = {
+    "EPISODE 1",
+    "EPISODE 2",
+    "EPISODE 4"
+  }
+}
+
+local drawDropCharts = function()
 	imgui.SetWindowFontScale(fontScale)
 	
 	-- if Auto Mode, set selectedSection and selectedDifficulty
@@ -603,12 +786,12 @@ local drawDropCharts = function()
 			selectedDifficulty = party.difficulty
 		end
 	end
-  
+
   -- difficulty drop down
   imgui.PushItemWidth(250)
   difficultyChanged, selectedDifficulty = imgui.Combo("Difficulty", selectedDifficulty, difficulty, table.getn(difficulty))
   imgui.PopItemWidth()
-  
+
   -- section id drop down
   imgui.SameLine(0, 10)
   imgui.PushItemWidth(250)
@@ -617,15 +800,18 @@ local drawDropCharts = function()
   
   -- enter manual mode on changes
   if difficultyChanged or sectionChanged then
-	setMode("manual")
+    setMode("manual")
   end
   
   --get DAR/Rare input boxes
   getPartyConfig()
-  
+
   --get Search Input
   getSearchInput()
-  
+
+  --get Quest Input
+  getQuestInputs(qt, quest_categories, quests)
+
   -- title
   imgui.Spacing()
   imgui.SetWindowFontScale(1.6)
@@ -641,82 +827,173 @@ local drawDropCharts = function()
   
   -- create the drop chart tables
   for i = 1, #episode do 
-	-- automatically open current episode dropdown, if Auto Mode and episode has changed
-	if mode.status == "auto" and party.episode ~= nil then
-		if mode.initialStatus or mode.changed or party.episode ~= mode.lastEpisode then
-			if episode[i] == party.episode then
-				imgui.SetNextTreeNodeOpen(true)
-			else
-				imgui.SetNextTreeNodeOpen(false)
-			end
-		end
-	end
+	  -- automatically open current episode dropdown, if Auto Mode and episode has changed
+    if mode.status == "auto" and party.episode ~= nil then
+      if mode.initialStatus or mode.changed or party.episode ~= mode.lastEpisode then
+        if episode[i] == party.episode and party.quest == nil  then
+          imgui.SetNextTreeNodeOpen(true)
+        elseif episode[i] == "QUEST" and party.quest ~= nill then
+          imgui.SetNextTreeNodeOpen(true)
+        else
+          imgui.SetNextTreeNodeOpen(false)
+        end
+      end
+    end
     if imgui.TreeNodeEx(episode[i], {"Framed"}) then
-      Separator(true)
+      local party_quest = ""
+      if party.quest == 0 or party.quest == nil then
+        party_quest = qt["quest_names"][qt["selectedQuest"]]
+      else
+        party_quest = party.quest
+      end
+
+      if episode[i] == "QUEST" then
+        -- Quest title
+        imgui.NewLine()
+        imgui.Spacing()
+        imgui.SetWindowFontScale(1.4)
+        ColorKeyword(party_quest)
+        imgui.SetWindowFontScale(fontScale)
+        imgui.Spacing()
+        Separator(false, true)
+      else
+        Separator(true)
+      end
+
       imgui.NewLine()
       NextColumn()
-      
+
       for j = 1, #cols do
-		
-        imgui.TextColored(1, 1, 0, 1, Pad(cols[j], padding))
-        
-        if j == 1 then
-          NextColumn(2, 2)
+        if j == 3 and episode[i] ~= "QUEST" then
+          break
         else
-          NextColumn()
+          imgui.TextColored(1, 1, 0, 1, Pad(cols[j], padding))
+          if j == 1 or (j == 2 and episode[i] == "QUEST") then
+              NextColumn(2, 2)
+          else
+              NextColumn()
+          end
         end
       end
       
-      Separator()
-	  
+      if episode[i] == "QUEST" then
+        Separator(false, true)
+      else
+        Separator()
+      end
+
 	  -- Define generateRows function, to accommodate search feature
 	  local function generateRows(row, diff, sect)
-		diff = diff or selectedDifficulty
-		sect = sect or selectedSection
-	  
-		for j = 1, #row do
-		  if (row[j].target == "SEPARATOR") then
-			-- Don't generate separators on searches to prevent empty skips between areas (otherwise, no results in an area still generates a starting separator)
-            if (search.filterString == "") then
-			  Separator()
-			end
-          else
-			-- Only display result row if no filterString or if a match occurs
-	    	if(search.filterString == "" or string.find(string.lower(row[j].item), string.lower(search.filterString), 1, true)) then
-              imgui.NewLine()
-              NextColumn()
+      diff = diff or selectedDifficulty
+      sect = sect or selectedSection
+      
+      for j = 1, #row do
+        if (row[j].target == "SEPARATOR") then
+        -- Don't generate separators on searches to prevent empty skips between areas (otherwise, no results in an area still generates a starting separator)
+          if (search.filterString == "") then
+            Separator()
+          end
+        else
+        -- Only display result row if no filterString or if a match occurs
+          if(search.filterString == "" or string.find(string.lower(row[j].item), string.lower(search.filterString), 1, true)) then
+            local target = string.gsub(row[j].target, "[\r\n]", "")
+            imgui.NewLine()
+            NextColumn()
 
-              -- target
-              imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, Pad(row[j].target, padding))
+            -- target
+            imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, Pad(target, padding))
+            NextColumn(2, 2)
+
+            -- item
+            imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, Pad(row[j].item, padding))
+
+            if imgui.IsItemHovered() then
+              getToolTip(row[j], diff, sect)
+            end
+
+            -- count
+            if row[j].count then
               NextColumn(2, 2)
+              imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, Pad(row[j].count, padding))
 
-              -- item
-              imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, Pad(row[j].item, padding))
-			
               if imgui.IsItemHovered() then
-                getToolTip(row[j], diff, sect)
+                getToolTip(row[j], diff, sect, row[j].count)
               end
-          
-              NextColumn()
+            end
+        
+            NextColumn()
+            -- check if it's quest row
+            if row[j].count then
+              Separator(false, true)
+            else
               Separator()
-		    end
+            end
           end
         end
+      end
 	  end
+
+    local function generateQuestRows(row, quests)
+      local quest_row, quest_mobs, selected_quest = {}, {}, {}
+      local selected_quest_name = qt["quest_names"][qt["selectedQuest"]]
+
+      -- parse through quests table for the selected quest
+      for k,v in orderedPairs(quests) do
+        if quests[tostring(k)]["Name"] == selected_quest_name then
+          selected_quest = quests[tostring(k)]
+        end    
+      end
+
+      -- loop through selected quests mobs
+      for k,v in pairs(selected_quest["Mobs"]) do
+        -- loops through quest's area tables
+        for _k,_v in pairs(v) do
+          if quest_mobs[_k] then
+            quest_mobs[_k] = quest_mobs[_k] + tonumber(_v) 
+          else
+            quest_mobs[_k] = tonumber(_v)
+          end
+        end
+      end
+
+      -- now loop through quest_mobs + drop_chart row for same mobs
+      -- on match, copy drop_charts target properties into new table
+      for k,v in pairs(quest_mobs) do
+        for i = 1, #row do
+          -- drop chart mob
+          local dc_mob = splitByDelimiter(row[i].target, "/")
+          local s1_res = compareStrings(dc_mob.s1, k)
+          local s2_res = compareStrings(dc_mob.s2, k)
+
+          if s1_res or s2_res then
+            local target = copy(row[i])
+            target["count"] = v
+            table.insert(quest_row, target)
+          end
+        end
+      end
+      
+      generateRows(quest_row)
+    end
 
 	  -- Generate rows depending on search
 	  if search.filterString == "" or search.scope == "selection" then
 		-- No search term, or "selection" mode, so use rows with selected settings
-		local row = drop_charts[difficulty[selectedDifficulty]][episode[i]][section[selectedSection]]
-		generateRows(row)
+      if episode[i] ~= "QUEST" then
+        local row = drop_charts[difficulty[selectedDifficulty]][episode[i]][section[selectedSection]]
+        generateRows(row)
+      else
+        local row = drop_charts[difficulty[selectedDifficulty]][qt["episodes"][qt["selectedEpisode"]]][section[selectedSection]]
+        generateQuestRows(row, qt.quests)
+      end
 	  else
 		-- Iterate through all difficulties, episodes, and sections, using search.filterString
-		for d = 1, #difficulty do
-		  for s = 1, #section do
-		    local row = drop_charts[difficulty[d]][episode[i]][section[s]]
-		    generateRows(row, d, s)
-		  end
-		end
+      for d = 1, #difficulty do
+        for s = 1, #section do
+          local row = drop_charts[difficulty[d]][episode[i]][section[s]]
+          generateRows(row, d, s)
+        end
+      end
 	  end
 	  
       imgui.TreePop()
@@ -737,7 +1014,7 @@ local function present()
     -- if counter % update_interval == 0 then
         local side = get_side_text()
 		if string.find(side, "ID") and string.find(side, "Drop") and string.find(side, "Rare") then
-            party = parse_side_message(side)
+        party = parse_side_message(side)
 			if mode.initialStatus == true then
 				mode.status = "auto"
 				dataFound = true
@@ -759,7 +1036,6 @@ local function present()
     imgui.End()
   end
 end
-
 
 local function init()
   core_mainmenu.add_button("Drop Charts", button_func)
