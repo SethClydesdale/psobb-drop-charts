@@ -947,11 +947,20 @@ local drawDropCharts = function()
       -- loop through selected quests mobs
       for k,v in pairs(selected_quest["Mobs"]) do
         -- loops through quest's area tables
+        local is_random = k:find("Random Spawns")
         for _k,_v in pairs(v) do
-          if quest_mobs[_k] then
-            quest_mobs[_k] = quest_mobs[_k] + tonumber(_v) 
+          if quest_mobs[_k] then                    
+            if is_random == nil then
+              quest_mobs[_k] = quest_mobs[_k] + tonumber(_v)
+            else
+              quest_mobs[_k] = quest_mobs[_k] .. " + " .. _v .. "(Chance)"
+            end
           else
-            quest_mobs[_k] = tonumber(_v)
+            if is_random == nil then
+              quest_mobs[_k] = tonumber(_v)
+            else
+              quest_mobs[_k] = _v .. "(Chance)"
+            end
           end
         end
       end
@@ -1039,7 +1048,7 @@ end
 
 local function init()
   core_mainmenu.add_button("Drop Charts", button_func)
-  
+
   return {
     name = "Drop Charts",
     version = "1.2.1",
