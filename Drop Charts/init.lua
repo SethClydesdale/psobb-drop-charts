@@ -429,7 +429,7 @@ local getToolTip = function(item, diff, sect, mob_count)
 		if search.scope == "all" then
 			imgui.TextColored(difficulty_color[diff][1], difficulty_color[diff][2], difficulty_color[diff][3], 1, difficulty[diff])
 			imgui.SameLine(0, 8)
-      imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, section[sect])
+            imgui.TextColored(section_color[sect][1], section_color[sect][2], section_color[sect][3], 1, section[sect])
 			imgui.NewLine()
 			imgui.NewLine()
 		end
@@ -484,36 +484,55 @@ local getToolTip = function(item, diff, sect, mob_count)
 		end
 		
 		imgui.NewLine()
-    -- chance calculator
-    local chancePercentage = percent
-    local _computedDenom = string.format("%.2f",computedDenom)
-    local noHit = (_computedDenom - 1) / _computedDenom
-    local noChancePercentage = noHit
+        -- chance calculator
+        local chancePercentage = percent
+        local _computedDenom = string.format("%.2f",computedDenom)
+        local noHit = (_computedDenom - 1) / _computedDenom
+        local noChancePercentage = noHit
 
-    -- check if row is a quest
-    if mob_count and custom.chances >= 1 then
-      TextC(true, 0xFFFFFFFF, "Probability from (")
-      TextC(false, 0xFF00FF00, custom.chances)
-      TextC(false, 0xFFFFFFFF, ") Quest runs")
-      custom.chances = mob_count * custom.chances
-    end
+        -- check if row is a quest
+        if mob_count and custom.chances >= 1 then
+            TextC(true, 0xFFFFFFFF, "Probability from (")
+            TextC(false, 0xFF00FF00, custom.chances)
+            TextC(false, 0xFFFFFFFF, ") Quest runs")
 
-    if item.dar ~= computedDar or item.rare ~= computedRare or custom.chances > 1 then
-      local counter = 1
+            --check if mob_count is a random chance mob
+            if type(mob_count) == "string" and mob_count:find("Chance") then
+                local temp = {}
+                local temp_mobs, temp_count = 0, 0
+                
+                --loop through random chance string and only get mob numbers
+                for i=0, #mob_count do
+                    if mob_count:sub(i,i) == "+" or mob_count:sub(i,i) == "/" then
+                        temp_count = tonumber(table.concat(temp))
+                        temp_mobs = temp_mobs + temp_count
+                        temp = {}
+                    else
+                        table.insert(temp, mob_count:sub(i,i))
+                    end
+                end
+            
+                mob_count = temp_mobs
+            end
+            
+            custom.chances = mob_count * custom.chances
+        end
 
-      while (counter < custom.chances)
-      do
-        noChancePercentage = noChancePercentage * noHit
-        counter = counter + 1
-      end
-      -- convert it to chance
-      chancePercentage = string.format("%.2f",((1 - noChancePercentage) * 100))
-    end
+        if item.dar ~= computedDar or item.rare ~= computedRare or custom.chances > 1 then
+            local counter = 1
+            while (counter < custom.chances)
+            do
+                noChancePercentage = noChancePercentage * noHit
+                counter = counter + 1
+            end
+            -- convert it to chance
+            chancePercentage = string.format("%.2f", ((1 - noChancePercentage) * 100))
+        end
 
-    TextC(true, 0xFFFFFFFF, "Chances: ")
-    TextC(false, 0xFF00FF00, custom.chances)
-    TextC(false, 0xFFFFFFFF, ", Probability: ")
-    TextC(false, 0xFF00FF00, chancePercentage .. "%%")
+        TextC(true, 0xFFFFFFFF, "Chances: ")
+        TextC(false, 0xFF00FF00, custom.chances)
+        TextC(false, 0xFFFFFFFF, ", Probability: ")
+        TextC(false, 0xFF00FF00, chancePercentage .. "%%")
 
 		imgui.NewLine()
 		
@@ -947,11 +966,20 @@ local drawDropCharts = function()
       -- loop through selected quests mobs
       for k,v in pairs(selected_quest["Mobs"]) do
         -- loops through quest's area tables
+        local is_random = k:find("Random Spawns")
         for _k,_v in pairs(v) do
-          if quest_mobs[_k] then
-            quest_mobs[_k] = quest_mobs[_k] + tonumber(_v) 
+          if quest_mobs[_k] then                    
+            if is_random == nil then
+              quest_mobs[_k] = quest_mobs[_k] + tonumber(_v)
+            else
+              quest_mobs[_k] = quest_mobs[_k] .. " + " .. _v .. "(Chance)"
+            end
           else
-            quest_mobs[_k] = tonumber(_v)
+            if is_random == nil then
+              quest_mobs[_k] = tonumber(_v)
+            else
+              quest_mobs[_k] = _v .. "(Chance)"
+            end
           end
         end
       end
@@ -1039,7 +1067,7 @@ end
 
 local function init()
   core_mainmenu.add_button("Drop Charts", button_func)
-  
+
   return {
     name = "Drop Charts",
     version = "1.2.1",
