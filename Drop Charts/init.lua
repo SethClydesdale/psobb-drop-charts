@@ -610,6 +610,8 @@ local getQuestInputs = function (qt, quest_categories, quests)
 
   -- if changed, enter Manual Mode
   if qt.episodeChanged then
+      qt.selectedCategory = 1
+      qt.selectedQuest = 1
 	  setMode("manual")
   end
 
